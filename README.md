@@ -94,14 +94,8 @@
 ## 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=softkleenex&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=softkleenex&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,html&exclude_repo=softkleenex.github.io" alt="Top Languages" width="48%" />
-</div>
-
-<div align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=softkleenex&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true)
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=softkleenex&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=softkleenex&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,html&exclude_repo=softkleenex.github.io" alt="Top Languages" width="49%" />
 </div>
 
 ---
