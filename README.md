@@ -15,36 +15,38 @@
 
 ## 🏆 Featured Projects
 
-### 🍽️ YUM:AI - 어린이 음식 추천 시스템 (2025.07-08)
-**SKT FLY AI 부트캠프 | 백엔드 아키텍처 전체 담당**
+### 🍽️ YUM:AI - 어린이 음식 추천 시스템
+**2025.07-08 | SKT FLY AI 부트캠프**
 
-프론트엔드 초안을 제외한 **모든 백엔드 아키텍처, API 통합, 배포 인프라 설계 및 구현**
+프론트엔드 초안을 제외한 **모든 백엔드 아키텍처, API 통합, 배포 인프라 설계 및 구현 담당**
 
-**🛠 Tech Stack:** FastAPI, Python, OpenAI CLIP, LogMeal API, Docker, GCP (Cloud Run, Cloud Build), Google OAuth, T-Map
+**🛠 Tech Stack**
+FastAPI, Python, OpenAI CLIP, LogMeal API, Docker, GCP (Cloud Run, Cloud Build), Google OAuth, T-Map
 
-**⭐ Key Achievements:**
+**⭐ Key Achievements**
 - **마이크로서비스 아키텍처**: 4개 독립 서버 + 통합 프록시 서버 구성
 - **혁신적인 디버깅**: 백엔드 로그를 브라우저 콘솔(F12)에 실시간 출력하는 시스템 구축
 - **AI 음식 인식**: Zero-Shot 학습으로 한식 30종, 국제 음식 15종 인식 및 영양 분석
 - **완전 자동화 배포**: GCP 서버리스 배포 및 CI/CD 파이프라인
 
----
+<br>
 
-### 🎬 AImoviefinder - AI 기반 영화 검색 시스템 (2025.08)
-**SKT FLY AI 부트캠프 내 최고 평가 프로젝트 🏅**
+### 🎬 AImoviefinder - AI 기반 영화 검색 시스템
+**2025.08 | SKT FLY AI 부트캠프 내 최고 평가 프로젝트 🏅**
 
-**🛠 Tech Stack:** GPT-4, Gemini API, MCP (Model Context Protocol), Tavily, IMDB Top 1000 dataset
+**🛠 Tech Stack**
+GPT-4, Gemini API, MCP (Model Context Protocol), Tavily, IMDB Top 1000 dataset
 
-**⭐ Core Innovation:**
+**⭐ Core Innovation**
 - **하이브리드 검색 시스템**: LLM과 웹 검색의 상호보완적 통합
 - **고급 질의 처리**: 모호한 설명으로도 정확한 영화 검색 (예: "테니스 같은 초록색 헤어스타일 영화" → "이터널 선샤인")
 
 📁 [GitHub Repository](https://github.com/softkleenex/AImoviefinder)
 
----
+<br>
 
 ### 🏅 AI Competition Participation
-- **shipping-anomaly-detection** - Dacon 물류 이상 탐지 경진대회 참여
+- **shipping-anomaly-detection** - Dacon 물류 이상 탐지 경진대회
 - **dacon-car-news-classification** - GPT-4o-mini 프롬프트 엔지니어링 활용 자동차 뉴스 분류
 
 ---
@@ -78,25 +80,22 @@
 
 </div>
 
-```
-💡 백준 온라인 저지 지속적 학습
-📌 주요 언어: C, Python
-🎯 강점: 그래프 탐색, 동적 계획법, 자료구조 구현
-📚 최신 연구 추적: "Breaking the Sorting Barrier for Directed Single-Source Shortest Paths" 등
-```
+**💡 백준 온라인 저지 지속적 학습**
+- 📌 주요 언어: C, Python
+- 🎯 강점: 그래프 탐색, 동적 계획법, 자료구조 구현
+- 📚 최신 연구 추적: "Breaking the Sorting Barrier for Directed Single-Source Shortest Paths" 등
 
-**GitHub Repositories:**
-- [Algorithm](https://github.com/softkleenex/Algorithm)
-- [Algorithm2](https://github.com/softkleenex/algorithm2)
+**GitHub Repositories**
+- [Algorithm](https://github.com/softkleenex/Algorithm) | [Algorithm2](https://github.com/softkleenex/algorithm2)
 
 ---
 
 ## 📊 GitHub Activity
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=softkleenex&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=softkleenex&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,html&exclude_repo=softkleenex.github.io" alt="Top Languages" width="49%" />
-</div>
+<p align="center">
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=softkleenex&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=softkleenex&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,html&exclude_repo=softkleenex.github.io" />
+</p>
 
 ---
 
