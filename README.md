@@ -45,9 +45,41 @@ GPT-4, Gemini API, MCP (Model Context Protocol), Tavily, IMDB Top 1000 dataset
 
 <br>
 
+### 🗄️ LLM Database Project
+**2025.11 | 데이터베이스 설계 프로젝트**
+
+**🛠 Tech Stack**
+PostgreSQL, PL/SQL, Database Design
+
+**⭐ Key Features**
+- **완전한 데이터베이스 설계**: LLM 플랫폼을 위한 10개 테이블, 6000+ 레코드
+- **정규화 및 최적화**: 제3정규형(3NF) 적용, 인덱스 전략 수립
+- **실용적인 SQL 스크립트**: DDL, DML, 복잡한 쿼리 및 프로시저 포함
+- **포괄적인 문서화**: ERD, 데이터 사전, 샘플 쿼리 완비
+
+📁 [GitHub Repository](https://github.com/softkleenex/llm-database-project)
+
+<br>
+
+### 🏆 LG Code Pit 2025
+**2025.11 | 프로그래밍 대회 참가**
+
+**🛠 Tech Stack**
+Python, Algorithm Problem Solving
+
+**⭐ Highlights**
+- **완전한 반복 과정 기록**: 모든 문제 해결 과정의 반복 및 개선 사항 문서화
+- **알고리즘 역량 검증**: 시간 제약 하에서의 문제 해결 능력 입증
+- **코드 품질**: 가독성과 효율성을 모두 고려한 구현
+
+📁 [GitHub Repository](https://github.com/softkleenex/lgcpc-2025)
+
+<br>
+
 ### 🏅 AI Competition Participation
 - **shipping-anomaly-detection** - Dacon 물류 이상 탐지 경진대회
 - **dacon-car-news-classification** - GPT-4o-mini 프롬프트 엔지니어링 활용 자동차 뉴스 분류
+- **kaggle-jigsaw-acrc** - Kaggle Jigsaw ACRC 대회, LLM 어댑터 호환성 디버깅
 
 ---
 
@@ -86,7 +118,9 @@ GPT-4, Gemini API, MCP (Model Context Protocol), Tavily, IMDB Top 1000 dataset
 - 📚 최신 연구 추적: "Breaking the Sorting Barrier for Directed Single-Source Shortest Paths" 등
 
 **GitHub Repositories**
+- [Baekjoon](https://github.com/softkleenex/baekjoon) - 백준 온라인 저지 문제 풀이
 - [Algorithm](https://github.com/softkleenex/Algorithm) | [Algorithm2](https://github.com/softkleenex/algorithm2)
+- [Programming Basic](https://github.com/softkleenex/programming_basic) - C 프로그래밍 기초 및 알고리즘 구현
 
 ---
 
@@ -107,7 +141,7 @@ GPT-4, Gemini API, MCP (Model Context Protocol), Tavily, IMDB Top 1000 dataset
 
 ## 🎓 Education & Experience
 
-- 🏫 **경북대학교 컴퓨터학부** (2021~) - 3학년 재학
+- 🏫 **경북대학교 컴퓨터학부** (2021학번) - 재학
 - 🚀 **SKT FLY AI 부트캠프** (2025.07-08) - 수료
 - 💻 **지속적인 알고리즘 스터디 및 프로젝트 개발**
 
