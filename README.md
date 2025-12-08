@@ -9,9 +9,19 @@
 [![GitHub](https://img.shields.io/badge/GitHub-softkleenex-181717?style=flat&logo=github)](https://github.com/softkleenex)
 [![Gmail](https://img.shields.io/badge/Gmail-softkleenex1217-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:softkleenex1217@gmail.com)
 
-</div>
+---
+
+## 🏆 2025 AI-conic Hackathon 최우수상 수상 🏆
+
+| 프로젝트 | 수상 | 상금 | 주최 |
+|:---:|:---:|:---:|:---:|
+| **[SilverLink - AI 복지 도우미](https://github.com/softkleenex/silverlink-hackathon-2025)** | **최우수상** | **60만원** | 경북대학교 COSS |
+
+*복지 사각지대 어르신을 위한 AI 음성 기반 복지 혜택 추천 서비스*
 
 ---
+
+</div>
 
 ## 🎯 Core Competencies
 
@@ -40,7 +50,7 @@ PostgreSQL 설계/최적화<br>
 **🤖 AI/ML Integration**
 
 LLM API 통합<br>
-CLIP 모델 활용<br>
+Genomic Language Model<br>
 RAG 시스템 구축
 
 </td>
@@ -50,6 +60,42 @@ RAG 시스템 구축
 ---
 
 ## 🏆 Featured Projects
+
+### 🎙️ SilverLink - AI 복지 도우미 `🏆 최우수상`
+**2025.11 | AI-conic 해커톤 | 상금 60만원**
+
+> **디지털 소외 어르신을 위한 AI 음성 기반 복지 혜택 추천 서비스**
+
+**🛠 Tech Stack**
+`Python` `Streamlit` `Google Gemini 2.5 Pro` `gTTS` `Multimodal AI`
+
+**⭐ Key Achievements**
+- **최우수상 수상**: 경북대학교 COSS 주최 AI-conic 해커톤
+- **실시간 음성 인식**: Gemini 멀티모달로 STT + AI 분석 통합
+- **20개 복지 혜택 매칭**: 적합도 점수 기반 추천 시스템
+- **라이브 서비스**: Streamlit Cloud 배포 완료
+
+📁 [GitHub Repository](https://github.com/softkleenex/silverlink-hackathon-2025) | 🌐 [Live Demo](https://silverlink-ai-welfare-6kn44w2jypeuce5d9zrsfg.streamlit.app)
+
+<br>
+
+### 🧬 MAI GLM 2025 - 유전체 변이 감지
+**2025.11-12 | Dacon 제2회 MAI 경진대회**
+
+> **DNA 서열의 변이를 감지하는 딥러닝 임베딩 생성**
+
+**🛠 Tech Stack**
+`PyTorch` `Transformers` `Nucleotide Transformer` `Contrastive Learning` `PCA`
+
+**⭐ Key Achievements**
+- **최종 점수**: 0.54805 (101등)
+- **대조학습 적용**: ClinVar 100K 변이 쌍으로 학습
+- **18개 체계적 실험**: 모델/레이어/차원 축소 비교 분석
+- **의료 AI 도메인**: 병원성 vs 양성 변이 분류
+
+📁 [GitHub Repository](https://github.com/softkleenex/mai-glm-2025)
+
+<br>
 
 ### 📊 Toss 광고 클릭률(CTR) 예측
 **2025.09-10 | Dacon x 토스 AI 경진대회**
@@ -126,10 +172,13 @@ RAG 시스템 구축
 
 | 대회 | 기간 | 내용 | 성과 |
 |------|------|------|------|
+| **🏆 AI-conic 해커톤** | 2025.11 | SilverLink AI 복지 도우미 | **최우수상 (60만원)** |
+| **MAI GLM 2025** | 2025.11-12 | 유전체 언어모델 변이 감지 | 101등, 0.54805 |
 | **Dacon 토스 CTR 예측** | 2025.09-10 | LightGBM/XGBoost 앙상블 | AUC 0.3434 |
+| **Dacon 해운물류 이상감지** | 2025.09-10 | 52개 센서 신호 분류 | 236등, F1 0.755 |
+| **Kaggle ARC Prize 2025** | 2025.03-11 | 추상적 추론 챌린지 | 진행중 |
 | **Kaggle Jigsaw ACRC** | 2025.10 | LLM 어댑터 호환성 디버깅 | 체계적 검증 체크리스트 |
 | **LG Code Pit 2025** | 2025.11 | 알고리즘 문제 해결 | 전 과정 문서화 |
-| **SilverLink 해커톤** | 2025.11 | AI 복지 도우미 개발 | AI-conic 해커톤 |
 | **Dacon 자동차 뉴스 분류** | 2025.09 | GPT-4o-mini 프롬프트 엔지니어링 | **100% 정확도** |
 
 ---
@@ -152,6 +201,7 @@ RAG 시스템 구축
 <td>
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
@@ -160,12 +210,13 @@ RAG 시스템 구축
 </td>
 </tr>
 <tr>
-<td align="center"><b>📚 Basic</b></td>
+<td align="center"><b>🤖 AI/ML</b></td>
 <td>
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat&logo=lightgbm&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat&logo=xgboost&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 </td>
 </tr>
