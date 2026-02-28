@@ -62,6 +62,74 @@ GCP Cloud Run 자동화 배포
 
 ## 🏆 Featured Projects
 
+### 🩺 MedGemma Sentinel
+**2026.02 | Kaggle MedGemma Impact Challenge**
+
+> **의료진을 위한 고정밀 트리아지 및 환자를 위한 의료 기록 번역 AI 시스템**
+
+**🛠 Tech Stack**
+`Python` `MedGemma 1.5-4B` `RAG` `FAISS` `SentenceTransformers`
+
+**⭐ Key Achievements**
+- **Dual-Agent Architecture**: 의료진용 Triage 분석(Agent A) 및 환자용 쉬운 요약 제공(Agent B)
+- **RAG-Enhanced Reliability**: MedQuAD 데이터셋 및 FAISS 벡터 검색 통합으로 환각 현상 방지
+- **접근성 개선**: 대학원 수준(Grade 15.3)의 의학 문서를 대중적 수준(Grade 7.2)으로 번역 성공
+
+📁 [GitHub Repository](https://github.com/softkleenex/medgemma-sentinel)
+
+<br>
+
+### 🧮 AI Mathematical Olympiad (AIMO) Prize 3 Solver
+**2026.02 | Kaggle AIMO Progress Prize 3**
+
+> **국제 수학 올림피아드(IMO) 수준의 문제를 해결하는 자율 AI 시스템**
+
+**🛠 Tech Stack**
+`Python` `Qwen2.5-Math-7B` `Tool-Integrated Reasoning (TIR)` `LLM`
+
+**⭐ Key Achievements**
+- **TIR 및 Code Execution**: 파이썬 코드를 스스로 작성, 실행하여 수학적 정밀도 확보
+- **Self-Correction Logic**: 코드 실행 오류 캡처 및 자체 수정(Self-Correction) 파이프라인 구축
+- **안정성 최적화**: Kaggle Inference Server 환경에 맞춘 멀티스레딩 타임아웃 및 예외 처리
+
+📁 [GitHub Repository](https://github.com/softkleenex/AMO_PP3)
+
+<br>
+
+### 🌤️ Weather Life MCP v3.7
+**2025.12-2026.01 | PlayMCP 공모전 (MCP Player 10) 출품작**
+
+> **30개의 생활/건강 지수 및 카카오맵 장소 추천을 통합 제공하는 차세대 날씨 MCP 서버**
+
+**🛠 Tech Stack**
+`Python` `FastMCP` `REST API` `Railway` `Kakao Maps API`
+
+**⭐ Key Achievements**
+- **30개 Tool 통합**: 날씨 예측, 활동 지수(빨래/등산/세차 등), 건강 지수(감기/수면/관절통 등)
+- **카카오맵 연동**: 상황별 장소 검색, 길찾기, 날씨 기반 코스 추천 자동화 (v3.0 업데이트)
+- **과학적 근거 기반**: MIT, Yale 논문 기반 및 기상청/에어코리아 API 활용
+
+📁 [GitHub Repository](https://github.com/softkleenex/weather-life-mcp)
+
+<br>
+
+### ⚽ K-League Pass Coordinate Prediction
+**2025.12-2026.01 | DACON K리그-서울시립대 AI 경진대회**
+
+> **K리그 경기 데이터를 기반으로 마지막 패스의 도착 좌표를 예측하는 ML 모델**
+
+**🛠 Tech Stack**
+`Python` `CatBoost` `LightGBM` `XGBoost` `Pandas` `Scikit-learn`
+
+**⭐ Key Achievements**
+- **최종 순위**: 121위 / 1,740팀 (**상위 7%**)
+- **핵심 전략**: 절대 좌표 대신 시작점 대비 변화량(Delta)을 예측하도록 문제를 재정의하여 일반화 성능 향상
+- **준지도 학습**: Test 데이터의 예측값을 학습에 다시 활용하는 Iterative Pseudo-Labeling 기법 적용
+
+📁 [GitHub Repository](https://github.com/softkleenex/k-league-pass-prediction-top7pct)
+
+<br>
+
 ### 🎙️ SilverLink - AI 복지 도우미 `🏆 최우수상`
 **2025.11 | AI-conic 해커톤 | 상금 60만원**
 
@@ -113,56 +181,6 @@ GCP Cloud Run 자동화 배포
 
 📁 [GitHub Repository](https://github.com/softkleenex/AImoviefinder)
 
-<br>
-
-### 🧬 MAI GLM 2025 - 유전체 변이 감지
-**2025.11-12 | Dacon 제2회 MAI 경진대회**
-
-> **DNA 서열의 변이를 감지하는 딥러닝 임베딩 생성**
-
-**🛠 Tech Stack**
-`PyTorch` `Transformers` `Nucleotide Transformer` `Contrastive Learning` `PCA`
-
-**⭐ Key Achievements**
-- **최종 점수**: 0.54805 (101등)
-- **대조학습 적용**: ClinVar 100K 변이 쌍으로 학습
-- **18개 체계적 실험**: 모델/레이어/차원 축소 비교 분석
-
-📁 [GitHub Repository](https://github.com/softkleenex/mai-glm-2025)
-
-<br>
-
-### 📊 Toss 광고 클릭률(CTR) 예측
-**2025.09-10 | Dacon x 토스 AI 경진대회**
-
-> **금융 플랫폼의 광고 클릭률을 예측하는 ML 파이프라인 구축**
-
-**🛠 Tech Stack**
-`Python` `LightGBM` `XGBoost` `Pandas` `Feature Engineering`
-
-**⭐ Key Achievements**
-- **앙상블 모델**: LightGBM + XGBoost 조합 및 5-Fold × 5 Seeds CV
-- **Feature Engineering**: 42개 파생 변수 생성 및 선택, AUC 0.3434 달성
-
-📁 [GitHub Repository](https://github.com/softkleenex/toss-ctr-prediction)
-
-<br>
-
-### 🗄️ LLM Database Platform
-**2025.11 | 데이터베이스 설계 프로젝트**
-
-> **LLM 플랫폼을 위한 완전한 관계형 데이터베이스 설계 및 구현**
-
-**🛠 Tech Stack**
-`PostgreSQL` `Oracle DB` `SQL` `Database Normalization`
-
-**⭐ Key Achievements**
-- **10개 테이블 설계**: 사용자, 모델, 대화, 토큰 사용량 등 제3정규형(3NF) 기반 설계
-- **6,000+ 레코드 처리**: 실제 운영 가능한 규모의 테스트 데이터
-- **43개 검증 쿼리**: 데이터 무결성 및 비즈니스 로직 검증
-
-📁 [GitHub Repository](https://github.com/softkleenex/llm-database-project)
-
 ---
 
 ## 🏅 AI Competition & Hackathon
@@ -170,11 +188,17 @@ GCP Cloud Run 자동화 배포
 | 대회 | 기간 | 내용 | 성과 |
 |------|------|------|------|
 | **🏆 AI-conic 해커톤** | 2025.11 | SilverLink AI 복지 도우미 | **최우수상 (2등)** |
-| **Kaggle ARC Prize 2025** | 2025.03-11 | AGI 추론 벤치마크, 시각적 패턴 인식 | 진행중 |
-| **MAI GLM 2025** | 2025.11-12 | 유전체 언어모델 변이 감지 | 101등, 0.54805 |
+| **Kaggle MedGemma Impact** | 2026.02 | RAG 기반 의료 트리아지 및 번역 AI | MedGemma 1.5-4B 활용 |
+| **Kaggle AIMO Prize 3** | 2026.02 | IMO 수준 수학 문제 풀이 AI | Qwen2.5-Math TIR 구축 |
+| **Dacon K리그 패스 예측** | 2026.01 | 패스 도착 좌표 예측 모델 | **상위 7% (121등)** |
+| **PlayMCP 공모전** | 2026.01 | Weather Life MCP 개발 | 30개 Tool, 100점 만점 평가 |
+| **Kaggle Playground S6E2** | 2026.02 | 심장 질환 예측 모델링 | Hill Climbing 앙상블 |
+| **Kaggle Hull Tactical** | 2025.10 | 시장 수익률 예측 (Finance) | Walk-Forward CV 기법 |
+| **Kaggle ARC Prize 2025** | 2025.11 | AGI 추론 벤치마크, 시각적 패턴 인식 | 진행중 |
+| **MAI GLM 2025** | 2025.12 | 유전체 언어모델 변이 감지 | 101등, 0.54805 |
 | **Kaggle Jigsaw ACRC** | 2025.10 | Qwen 2.5 1.5B LoRA 어댑터 분석 | 가설 기반 원인 규명 |
-| **Dacon 토스 CTR 예측** | 2025.09-10 | LightGBM/XGBoost 앙상블 | AUC 0.3434 |
-| **Dacon 해양수산부 이상감지**| 2025.09-10 | 52개 센서 기반 21개 클래스 분류 | 149개 피처 생성 |
+| **Dacon 토스 CTR 예측** | 2025.10 | LightGBM/XGBoost 앙상블 | AUC 0.3434 |
+| **Dacon 해양수산부 이상감지**| 2025.10 | 52개 센서 기반 21개 클래스 분류 | 149개 피처, 상위 236등 |
 | **Dacon 자동차 뉴스 분류** | 2025.09 | GPT-4o-mini 프롬프트 엔지니어링 | **100% 정확도 달성** |
 | **LG Code Pit 2025** | 2025.11 | 알고리즘 문제 해결 | 전 과정 문서화 |
 
