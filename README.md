@@ -16,10 +16,20 @@
 
 ## 🚀 Highlights & Awards
 
-- **🏆 최우수상 (2등)** | [AI-conic Hackathon] **SilverLink** - AI 음성 기반 복지 혜택 추천 서비스 (2025.11)
+- **🏆 최우수상 (2등)** | [AI-conic Hackathon] **SilverLink** - AI 음성 기반 복지 혜택 추 천 서비스 (2025.11)
 - **🏅 Top 7% (121위)** | [DACON] **K리그 패스 좌표 예측 AI 경진대회** (2026.01)
 - **🏅 100점 만점 평가** | [PlayMCP 공모전] **Weather Life MCP** (2026.01)
 - **🏅 부트캠프 최고 평가** | [SKT FLY AI] **AImoviefinder** - 하이브리드 AI 검색 시스템 (2025.08)
+
+---
+
+## 🌟 Open Source Contributions
+
+### [Gemini-Kit](https://github.com/nth5693/gemini-kit) (Extension for Google Gemini CLI)
+- **Problem:** A core update to the Gemini CLI engine broke backward compatibility for extensions, causing all 27 specialized AI agents in `gemini-kit` to crash during initialization due to missing YAML frontmatter requirements.
+- **Contribution:** Diagnosed the CLI engine crash logs, isolated the `Invalid agent definition` error, and authored a Python automation script to parse legacy markdown files and inject the newly mandatory YAML `name` and `description` frontmatter.
+- **Impact:** Successfully restored complete functionality to the open-source extension across modern Gemini CLI environments.
+- 🔗 **[PR #21: fix: add mandatory YAML frontmatter to agent markdown files](https://github.com/nth5693/gemini-kit/pull/21)**
 
 ---
 
@@ -30,7 +40,7 @@
 | **AI/ML Modeling** | **PyTorch, LightGBM, XGBoost, CatBoost, Transformers**<br>Tabular 데이터 분석 및 앙상블 모델링, 시계열 예측 (Walk-Forward Validation) |
 | **Vision & Multimodal** | **OpenAI CLIP, Google Gemini API, Qwen2.5-Math, MedGemma**<br>이미지 분류, 멀티모달 통합, STT/TTS 파이프라인, Prompt Engineering |
 | **Backend & Agent** | **FastAPI, Model Context Protocol (MCP), RAG, Streamlit**<br>Tool-Integrated Reasoning, LLM 에이전트 시스템, 마이크로서비스 아키텍처 |
-| **Data & Infra** | **PostgreSQL, Oracle DB, GCP Cloud Run, Docker, Git**<br>대규모 DB 스키마 설계(3NF), 쿼리 최적화, 자동화 배포 및 CI/CD |
+| **Data & Infra** | **PostgreSQL, Oracle DB, GCP Cloud Run, Docker, Git**<br>대규모 DB  스키마 설계(3NF), 쿼리 최적화, 자동화 배포 및 CI/CD |
 
 ---
 
@@ -43,7 +53,7 @@
 
 - **개요:** 의료진용 고정밀 트리아지 및 환자용 의료 기록 번역 듀얼 에이전트 시스템
 - **역할:** MedGemma 1.5-4B 모델 기반 아키텍처 설계, RAG(FAISS + MedQuAD) 통합
-- **성과:** 대학원 수준(Grade 15.3)의 의학 문서를 대중적 수준(Grade 7.2)으로 번역 성공, 환각 현상 완벽 제어
+- **성과:** 대학원 수준(Grade 15.3)의 의학 문서를 대중적 수준(Grade 7.2)으로 번역 성공,  환각 현상 완벽 제어
 - [🔗 GitHub Repository](https://github.com/softkleenex/medgemma-sentinel)
 </details>
 
@@ -59,9 +69,9 @@
 <details open>
 <summary><b>🌤️ Weather Life MCP v3.7 (PlayMCP 공모전)</b> <i>2025.12 - 2026.01</i></summary>
 
-- **개요:** 날씨, 생활/건강 지수, 카카오맵 기반 장소 추천을 통합한 차세대 AI 에이전트 서버
+- **개요:** 날씨, 생활/건강 지수, 카카오맵 기반 장소 추천을 통합한 차세대 AI 에이전트 서 버
 - **역할:** FastMCP 기반 30개 Tool 개발, 외부 API(기상청, 카카오맵 등) 연동
-- **성과:** 테스트 평가 100/100점 달성, MIT/Yale 등 과학적 논문 기반 건강 지수 산출 알고리즘 도입
+- **성과:** 테스트 평가 100/100점 달성, MIT/Yale 등 과학적 논문 기반 건강 지수 산출 알고 리즘 도입
 - [🔗 GitHub Repository](https://github.com/softkleenex/weather-life-mcp)
 </details>
 
@@ -119,7 +129,7 @@
 <div align="center">
   <a href="https://solved.ac/softkleenex"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=softkleenex" alt="Solved.ac Profile" /></a>
   <br>
-  <b>백준 온라인 저지 (C/Python)</b> - 그래프 탐색, 동적 계획법, 자료구조 중심 지속적 학습
+  <b>백준 온라인 저지 (C/Python)</b> - 그래프 탐색, 동적 계획법, 자료구조 중심 지속적 학 습
 </div>
 
 ---
