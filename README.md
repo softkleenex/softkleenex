@@ -18,7 +18,6 @@
 
 - **🏆 최우수상 (2등)** | [AI-conic Hackathon] **SilverLink** - AI 음성 기반 복지 혜택 추 천 서비스 (2025.11)
 - **🏅 Top 7% (121위)** | [DACON] **K리그 패스 좌표 예측 AI 경진대회** (2026.01)
-- **🏅 100점 만점 평가** | [PlayMCP 공모전] **Weather Life MCP** (2026.01)
 - **🏅 부트캠프 최고 평가** | [SKT FLY AI] **AImoviefinder** - 하이브리드 AI 검색 시스템 (2025.08)
 
 ---
