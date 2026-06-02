@@ -22,7 +22,15 @@
 ---
 
 ## 📅 Chronological AI & ML Roadmap
-*단 9개월간 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 압축적 성장 여정(High-Density Runway)입니다. 깃허브 최적화 마크다운 테이블과 기술 스택 배지를 활용하여 모바일 등 어떤 기기에서도 글자 깨짐 없이 100% 완벽하게 렌더링되며, 텍스트 수정만으로 관리가 매우 용이합니다.*
+*단 9개월간 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 압축적 성장 여정(High-Density Growth Runway)입니다.*
+
+<p align="center">
+  <img src="roadmap.png" alt="softkleenex AI & Engineering Gantt-Roadmap" width="100%" />
+</p>
+
+<details>
+<summary><b>🔍 텍스트로 상세히 보기 (상세 내용 및 텍스트 데이터가 필요하시면 여기를 클릭하세요)</b></summary>
+<br/>
 
 | 수행 기간 | 프로젝트 및 활동 내용 | 핵심 기술 스택 (Tech Stack) | 주요 성과 & 역할 |
 |:---|:---|:---|:---|
@@ -34,6 +42,8 @@
 | **2025.09 - 10** | 📈 **ML 앙상블 CTR & 시계열 분석**<br>토스 CTR 예측 및 Playground 심장 질환 예측 | ![](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square) ![](https://img.shields.io/badge/LightGBM-008080?style=flat-square) | Toss 광고 42개 피처 설계 및 앙상블 적용<br>Hull 시계열 Walk-Forward CV 누수 차단 |
 | **2025.09** | 🚗 **DACON 자동차 뉴스 분류 AI**<br>텍스트 카테고리 고속 자동 분류 모델 | ![](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square) | **자체 검증 데이터셋 정확도 100% 달성**<br>소형 모델에 대한 고품질 Few-shot 프롬프트 설계 |
 | **2025.06 - 08** | 🍔 **YUM:AI - 아동 푸드 추천 시스템**<br>CLIP 기반 한식 이미지 인식 및 캐릭터 영양 관리 | ![](https://img.shields.io/badge/FastAPI-009688?style=flat-square) ![](https://img.shields.io/badge/CLIP-412991?style=flat-square) ![](https://img.shields.io/badge/Docker-2496ED?style=flat-square) | **SKT Fly AI 7기 최우수 성적 수료**<br>자체 데이터 CLIP 92% 분류 달성 및 GCP Cloud Run 배포 |
+
+</details>
 
 ---
 
