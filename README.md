@@ -25,13 +25,25 @@
 *단 9개월 동안 13개의 고성능 AI 모델링 및 에이전트 구축을 달성한 압축적 성장 여정입니다.*
 
 ### 🚀 2026
-* **`01월 - 02월`** 🩺 **MedGemma Sentinel** (Kaggle 의료 AI 에이전트)
+* **`01월 - 02월`** 🩺 [**MedGemma Sentinel**](https://github.com/softkleenex/medgemma-sentinel) (Kaggle 의료 AI 에이전트)
 * **`01월 - 02월`** 💔 **심장 질환 예측** (Kaggle Playground S6E2)
-* **`2025.11 - 2026.02`** 🧮 **AIMO Prize 3 Solver** (Kaggle 수학 올림피아드 AI)
-* **`2025.12 - 2026.01`** 🌤️ **Weather Life MCP v3.7** (PlayMCP 공모전)
-* **`2025.12 - 2026.01`** ⚽ **K리그 패스 좌표 예측 AI 경진대회** (DACON 상위 7%)
+* **`2025.11 - 2026.02`** 🧮 [**AIMO Prize 3 Solver**](https://github.com/softkleenex/AMO_PP3) (Kaggle 수학 올림피아드 AI)
+* **`2025.12 - 2026.01`** 🌤️ [**Weather Life MCP v3.7**](https://github.com/softkleenex/weather-life-mcp) (PlayMCP 공모전)
+* **`2025.12 - 2026.01`** ⚽ [**K리그 패스 좌표 예측 AI 경진대회**](https://github.com/softkleenex/k-league-pass-prediction-top7pct) (DACON 상위 7%)
 
 ---
+
+### 🌟 2025
+* **`11월 - 12월`** 🧬 **유전체 변이 감지 AI 경진대회** (DACON 101위)
+* **`10월 - 11월`** 🎙️ [**SilverLink - AI 복지 도우미**](https://github.com/softkleenex/silverlink-hackathon-2025) (경북대 AI-conic 해커톤 최우수상/2등)
+* **`09월 - 11월`** 🧩 **Kaggle ARC Prize 2025** (AGI 시각 추론 패턴 분석)
+* **`09월 - 10월`** 📈 **토스 광고 CTR 예측 AI 경진대회** (DACON)
+* **`09월 - 10월`** 📊 **Hull Tactical Market** (Kaggle 금융 시계열 예측)
+* **`09월 - 10월`** 🌊 **해양수산부 이상감지 AI 경진대회** (DACON 상위 236위)
+* **`08월 - 09월`** 🚗 **자동차 뉴스 분류 AI 경진대회** (DACON 자체 검증 100%)
+* **`06월 - 08월`** 🍔 [**YUM:AI - 아동 한식 이미지 영양 분석 서비스**](https://github.com/softkleenex/YUM-AI) (SKT Fly AI 최고 평가 수료)
+
+
 
 ### 🌟 2025
 * **`11월 - 12월`** 🧬 **유전체 변이 감지 AI 경진대회** (DACON 101위)
