@@ -22,30 +22,49 @@
 ---
 
 ## 📅 Chronological AI & Engineering Roadmap
-*Kaggle/DACON 경진대회 및 AI/ML 프로젝트 수행의 압축적인 성장의 기록입니다.*
+*시간의 흐름(화살표)을 따라 각 구간별로 진행한 AI/ML 프로젝트 및 주요 성과를 한눈에 볼 수 있는 로드맵입니다.*
 
 ```mermaid
-timeline
-    title softkleenex (이상재) AI/ML & Engineering Roadmap
-    2021.03 - 2023.05 : 학술적 기초 & 군 복무
-                      : 🎓 경북대학교 컴퓨터학부 입학 (글로벌소프트웨어)
-                      : 🪖 대한민국 공군 병장 만기 제대 (기획/행정)
-    2025.06 - 2025.08 : AI 기술 내재화 & 협업 경험
-                      : 🚀 SKT Fly AI 7기 최우수 수료
-                      : 🍔 YUM:AI - CLIP 기반 한식 이미지 인식 & GCP 영양 분석 서비스 개발
-                      : 🚗 DACON 자동차 뉴스 분류 AI 경진대회 참가 (자체 검증 기준 정확도 100% 달성)
-    2025.09 - 2025.10 : Tabular & 시계열 모델링 확장
-                      : 📈 DACON 토스 광고 CTR 예측 (LightGBM/XGBoost 42개 Feature 설계)
-                      : 🚨 DACON 해양수산부 이상감지 (센서 파생 변수 149개 설계)
-                      : 📊 Kaggle Hull Tactical Market Prediction (Walk-Forward CV 검증 모델링)
-    2025.11 - 2026.01 : 멀티모달 & 에이전트 융합
-                      : 🏆 KNU AI-conic 해커톤 최우수상 (SilverLink - Gemini 멀티모달 복지 도우미)
-                      : 🌤️ Weather Life MCP v3.7 개발 (PlayMCP 공모전 출품작)
-                      : ⚽ DACON K-리그 패스 좌표 예측 상위 7% (Delta 예측 및 준지도 학습 도입)
-    2026.02 : LLM Reasoning & 에이전트 고도화
-            : 🧮 Kaggle AIMO Progress Prize 3 (Qwen2.5-Math 기반 자율 실행 & Self-Correction 솔버 개발)
-            : 🩺 Kaggle MedGemma Impact Challenge (MedGemma Sentinel - Dual-Agent 의료 RAG 시스템)
-            : 💔 Kaggle Playground S6E2 심장 질환 예측 (Hill Climbing 앙상블 기법 적용)
+flowchart TD
+    %% Direction
+    direction TB
+
+    %% Styles & Colors
+    classDef timeNode fill:#0f172a,stroke:#1e293b,stroke-width:2px,color:#ffffff,font-size:12px,font-weight:bold;
+    classDef projNode fill:#ffffff,stroke:#cbd5e1,stroke-width:1.2px,color:#334155,font-size:11px;
+    classDef awardNode fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#1e3a8a,font-size:11px,font-weight:bold;
+    classDef startEnd fill:#f8fafc,stroke:#475569,stroke-width:1.5px,color:#0f172a,font-size:11px,font-weight:bold;
+
+    %% Chronological Arrow (Central Timeline)
+    Start([🚀 AI 여정 시작]) ===> T1[2025.06 - 08<br>기술 내재화 & 협업]
+    T1 ===> T2[2025.09 - 10<br>ML 모델링 확장]
+    T2 ===> T3[2025.11<br>멀티모달 융합]
+    T3 ===> T4[2025.12 - 2026.01<br>에이전트 & 실전 ML]
+    T4 ===> T5[2026.02<br>LLM Reasoning]
+    T5 ===> End([🏆 현재])
+
+    class T1,T2,T3,T4,T5 timeNode;
+    class Start,End startEnd;
+
+    %% 2025.06 - 08 Projects
+    T1 --- P1("🍔 <b>YUM:AI 아동 음식 추천 시스템</b><br>- OpenAI CLIP 기반 한식 30종 이미지 파인튜닝 (정확도 92%)<br>- FastAPI & GCP Cloud Run 마이크로서비스 배포<br>⭐ <b>SKT Fly AI 7기 최우수 성적 수료</b>")
+    class P1 projNode;
+
+    %% 2025.09 - 10 Projects
+    T2 --- P2("🚗 <b>DACON 자동차 뉴스 분류 AI</b><br>- GPT-4o-mini 퓨샷 프롬프트 자체 검증 100%<br><br>📈 <b>DACON 토스 CTR / 해양 이상 감지</b><br>- 고효율 파생변수 (최대 149개) 및 앙상블 모델링<br><br>📊 <b>Kaggle Hull Tactical Market</b><br>- 금융 시계열 누수 차단 Walk-Forward CV 구축")
+    class P2 projNode;
+
+    %% 2025.11 Projects
+    T3 --- P5("🎙️ <b>SilverLink - AI 복지 도우미</b><br>- Gemini 2.5 Pro 기반 어르신 전용 음성 멀티모달 대화 시스템<br>- 복지 문서 RAG 검색 및 적합도 스코어 매칭 알고리즘 설계<br>🏆 <b>경북대 AI-conic 해커톤 최우수상 (2등) 수상</b>")
+    class P5 awardNode;
+
+    %% 2025.12 - 2026.01 Projects
+    T4 --- P6("⚽ <b>DACON K리그 패스 좌표 예측</b><br>- 절대 좌표 대신 변화량(Delta) 예측 기법 도입<br>- 준지도 Pseudo-Labeling 구현, <b>상위 7% (121위)</b> 달성<br><br>🌤️ <b>Weather Life MCP v3.7 개발</b><br>- FastMCP 기반 30개 커스텀 툴 및 API 통합<br>- 카카오맵 경로 안내 연동, <b>PlayMCP 공모전 출품</b>")
+    class P6 projNode;
+
+    %% 2026.02 Projects
+    T5 --- P8("🧮 <b>Kaggle AIMO Solver</b><br>- Qwen2.5-Math 기반 자율 실행 & Self-Correction 솔버 개발<br><br>🩺 <b>MedGemma Sentinel</b><br>- MedGemma 1.5-4B 기반 Dual-Agent 의료 RAG 구축<br><br>💔 <b>Kaggle Playground S6E2 심장 질환 예측</b><br>- Hill Climbing 앙상블 기법 모델링 적용")
+    class P8 projNode;
 ```
 
 ---
@@ -104,7 +123,7 @@ timeline
 - **주요 성과**:
   - Qwen2.5-Math-7B 모델 기반의 **TIR (Tool-Integrated Reasoning) 파이프라인** 독자 설계.
   - 실행 중 발생하는 에러를 캡처하여 스스로 프롬프트를 재구성 및 디버깅하는 **Self-Correction Logic (자가 수정 루프)** 구현.
-  - Kaggle Inference Server 환경에 맞추어 예외 및 타메아웃 처리를 포함한 **Thread-Safe 샌드박스** 구축.
+  - Kaggle Inference Server 환경에 맞추어 예외 및 타임아웃 처리를 포함한 **Thread-Safe 샌드박스** 구축.
 - **Tech Stack**: `Python`, `Qwen2.5-Math-7B`, `TIR (Tool-Integrated Reasoning)`, `LLM Agent`
 - **👉 [GitHub 저장소 보기](https://github.com/softkleenex/AMO_PP3)**
 
