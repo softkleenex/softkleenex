@@ -1,146 +1,168 @@
-<div align="center">
+# 🚀 Hello, World! I'm Sangjae Lee (이상재) 
+### 🧠 AI/ML Engineer · Vision & Multimodal AI · Agentic AI System Builder
 
-# 이상재 | Lee Shangjae
-**AI/ML Engineer · Vision & Multimodal AI · Backend Developer**
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/softkleenex)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=Kaggle&logoColor=white)](https://kaggle.com/softkleenex)
-[![Gmail](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:softkleenex1217@gmail.com)
-[![Solved.ac](https://img.shields.io/badge/Solved.ac-27E2A4?style=flat-square&logo=spdx&logoColor=white)](https://solved.ac/softkleenex)
-
-*“데이터의 신뢰성과 체계적인 엔지니어링을 바탕으로, 사용자에게 진정한 가치를 전달하는 AI 시스템을 구축합니다.”*
-
-</div>
+<p align="center">
+  <a href="https://github.com/softkleenex"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://kaggle.com/softkleenex"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/></a>
+  <a href="mailto:softkleenex1217@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://solved.ac/softkleenex"><img src="https://img.shields.io/badge/Solved.ac-Gold-dfb119?style=for-the-badge"/></a>
+</p>
 
 ---
 
-## 🚀 Highlights & Awards
+## 🙋‍♂️ About Me
+> **"데이터의 신뢰성과 체계적인 엔지니어링을 바탕으로, 사용자에게 실질적인 가치를 전달하는 AI/ML 엔지니어 이상재입니다."**
 
-- **🏆 최우수상 (2등)** | [AI-conic Hackathon] **SilverLink** - AI 음성 기반 복지 혜택 추 천 서비스 (2025.11)
-- **🏅 Top 7% (121위)** | [DACON] **K리그 패스 좌표 예측 AI 경진대회** (2026.01)
-- **🏅 부트캠프 최고 평가** | [SKT FLY AI] **AImoviefinder** - 하이브리드 AI 검색 시스템 (2025.08)
+저는 경북대학교 컴퓨터학부에서 글로벌소프트웨어를 전공하고 인공지능공학부를 부전공하며 이론적 기반을 견고히 다졌습니다. 단순히 모델을 학습시키는 것에 그치지 않고, **고성능 AI 모델과 실서비스 백엔드 파이프라인의 유기적인 연결**에 깊은 관심을 가지고 있습니다.
 
----
-
-## 🌟 Open Source Contributions
-
-### [Gemini-Kit](https://github.com/nth5693/gemini-kit) (Extension for Google Gemini CLI)
-- **Problem:** A core update to the Gemini CLI engine broke backward compatibility for extensions, causing all 27 specialized AI agents in `gemini-kit` to crash during initialization due to missing YAML frontmatter requirements.
-- **Contribution:** Diagnosed the CLI engine crash logs, isolated the `Invalid agent definition` error, and authored a Python automation script to parse legacy markdown files and inject the newly mandatory YAML `name` and `description` frontmatter.
-- **Impact:** Successfully restored complete functionality to the open-source extension across modern Gemini CLI environments.
-- 🔗 **[PR #21: fix: add mandatory YAML frontmatter to agent markdown files](https://github.com/nth5693/gemini-kit/pull/21)**
+- **실전 문제 해결 능력**: DACON 패스 좌표 예측 대회 **상위 7% (121위)**, **PlayMCP 공모전 100점 만점** 등 다수의 경진대회와 프로젝트에서 실력을 검증해 왔습니다.
+- **최신 AI 에이전트 설계**: MedGemma 의료 AI, AIMO 자율 수학 솔버(Tool-Integrated Reasoning), FastMCP 기반 생활 지수 추천 서버 등 최신 LLM 및 에이전트 시스템 아키텍처를 선제적으로 설계하고 구현합니다.
+- **기획 및 팀 협업 역량**: SKT Fly AI, KNU 해커톤 최우수상 등을 거치며 서비스 기획 단계부터 클라우드 배포 및 모니터링까지 전 과정을 주도적으로 이끌어내는 협업 중심의 인재입니다.
 
 ---
 
-## 🧠 Core Competencies
+## 📅 Chronological AI & Engineering Roadmap
+*Kaggle/DACON 경진대회 및 AI/ML 프로젝트 수행의 압축적인 성장의 기록입니다.*
 
-| Field | Technologies & Expertise |
-| :--- | :--- |
-| **AI/ML Modeling** | **PyTorch, LightGBM, XGBoost, CatBoost, Transformers**<br>Tabular 데이터 분석 및 앙상블 모델링, 시계열 예측 (Walk-Forward Validation) |
-| **Vision & Multimodal** | **OpenAI CLIP, Google Gemini API, Qwen2.5-Math, MedGemma**<br>이미지 분류, 멀티모달 통합, STT/TTS 파이프라인, Prompt Engineering |
-| **Backend & Agent** | **FastAPI, Model Context Protocol (MCP), RAG, Streamlit**<br>Tool-Integrated Reasoning, LLM 에이전트 시스템, 마이크로서비스 아키텍처 |
-| **Data & Infra** | **PostgreSQL, Oracle DB, GCP Cloud Run, Docker, Git**<br>대규모 DB  스키마 설계(3NF), 쿼리 최적화, 자동화 배포 및 CI/CD |
-
----
-
-## 🏆 Key Projects & Competitions
-
-### 💡 AI Agents & LLM Applications
-
-<details open>
-<summary><b>🩺 MedGemma Sentinel (Kaggle Impact Challenge)</b> <i>2026.02</i></summary>
-
-- **개요:** 의료진용 고정밀 트리아지 및 환자용 의료 기록 번역 듀얼 에이전트 시스템
-- **역할:** MedGemma 1.5-4B 모델 기반 아키텍처 설계, RAG(FAISS + MedQuAD) 통합
-- **성과:** 대학원 수준(Grade 15.3)의 의학 문서를 대중적 수준(Grade 7.2)으로 번역 성공,  환각 현상 완벽 제어
-- [🔗 GitHub Repository](https://github.com/softkleenex/medgemma-sentinel)
-</details>
-
-<details open>
-<summary><b>🧮 AIMO Prize 3 Solver (Kaggle Competition)</b> <i>2026.02</i></summary>
-
-- **개요:** 국제 수학 올림피아드(IMO) 수준의 문제를 해결하는 자율 AI 시스템
-- **역할:** Qwen2.5-Math-7B 활용 Tool-Integrated Reasoning (TIR) 파이프라인 구축
-- **성과:** LLM이 파이썬 코드를 스스로 작성, 실행, 오류 캡처 후 자체 수정(Self-Correction)하는 로직 구현 및 Thread-Safe 환경 구축
-- [🔗 GitHub Repository](https://github.com/softkleenex/AMO_PP3)
-</details>
-
-<details open>
-<summary><b>🌤️ Weather Life MCP v3.7 (PlayMCP 공모전)</b> <i>2025.12 - 2026.01</i></summary>
-
-- **개요:** 날씨, 생활/건강 지수, 카카오맵 기반 장소 추천을 통합한 차세대 AI 에이전트 서 버
-- **역할:** FastMCP 기반 30개 Tool 개발, 외부 API(기상청, 카카오맵 등) 연동
-- **성과:** 테스트 평가 100/100점 달성, MIT/Yale 등 과학적 논문 기반 건강 지수 산출 알고 리즘 도입
-- [🔗 GitHub Repository](https://github.com/softkleenex/weather-life-mcp)
-</details>
-
-<details>
-<summary><b>🎙️ SilverLink - AI 복지 도우미 (AI-conic 해커톤 최우수상)</b> <i>2025.11</i></summary>
-
-- **개요:** 디지털 소외 어르신을 위한 음성 기반 복지 혜택 추천 서비스
-- **역할:** Google Gemini 2.5 Pro 기반 멀티모달(음성+텍스트) 입출력 시스템 및 RAG 구현
-- **성과:** 적합도 점수 기반 20개 복지 혜택 매칭, 최우수상(2등) 수상
-- [🔗 GitHub Repository](https://github.com/softkleenex/silverlink-hackathon-2025) | [🌐 Live Demo](https://silverlink-ai-welfare-6kn44w2jypeuce5d9zrsfg.streamlit.app)
-</details>
-
-### 📊 Machine Learning & Data Science
-
-<details open>
-<summary><b>⚽ K-League 패스 도착 좌표 예측 (DACON)</b> <i>2025.12 - 2026.01</i></summary>
-
-- **개요:** 경기 데이터를 활용해 마지막 패스의 (x, y) 좌표를 예측하는 ML 모델
-- **역할:** CatBoost, LightGBM 활용 앙상블 모델링
-- **성과:** 상위 7% (121위 / 1,740팀), 절대 좌표 대신 델타(변화량) 예측 기법 및 Iterative Pseudo-Labeling 적용
-- [🔗 GitHub Repository](https://github.com/softkleenex/k-league-pass-prediction-top7pct)
-</details>
-
-<details open>
-<summary><b>🍽️ YUM:AI - 아동 음식 추천 시스템 (SKT FLY AI 7기)</b> <i>2025.06 - 2025.08</i></summary>
-
-- **개요:** Vision AI 기반 한식 이미지 인식 및 영양 분석 마이크로서비스
-- **역할:** OpenAI CLIP 모델 파인튜닝, 이미지 파이프라인 최적화, FastAPI 백엔드 개발 및 GCP 배포
-- **성과:** 92% 인식 정확도(한식 30종+), 추론 시간 50% 단축(<200ms) 달성
-- [🔗 GitHub Repository](https://github.com/softkleenex/YUM-AI)
-</details>
-
-<details>
-<summary><b>기타 주요 데이터 분석 및 AI 대회 참여</b></summary>
-
-- **Kaggle Playground S6E2 (2026.02)** - 심장 질환 예측 모델링 (Hill Climbing 앙상블)
-- **MAI GLM 유전체 변이 감지 (2025.12)** - 101등, 대조학습(Contrastive Learning) 및 18개 체계적 실험
-- **Kaggle Hull Tactical Market Prediction (2025.10)** - 금융 수익률 예측, Walk-Forward Validation 기법
-- **DACON 토스 CTR 예측 (2025.10)** - LightGBM/XGBoost 앙상블, AUC 0.3434
-- **DACON 해양수산부 이상감지 (2025.10)** - 149개 파생 변수 생성, 상위 236등
-- **DACON 자동차 뉴스 분류 (2025.09)** - GPT-4o-mini 프롬프트 엔지니어링, 100% 정확도
-</details>
+```mermaid
+timeline
+    title softkleenex (이상재) AI/ML & Engineering Roadmap
+    2021.03 - 2023.05 : 학술적 기초 & 군 복무
+                      : 🎓 경북대학교 컴퓨터학부 입학 (글로벌소프트웨어)
+                      : 🪖 대한민국 공군 병장 만기 제대 (기획/행정)
+    2025.06 - 2025.08 : AI 기술 내재화 & 협업 경험
+                      : 🚀 SKT Fly AI 7기 최우수 수료
+                      : 🍔 YUM:AI - CLIP 기반 한식 이미지 인식 & GCP 영양 분석 서비스 개발
+                      : 🚗 DACON 자동차 뉴스 분류 AI 경진대회 100% 정확도 달성
+    2025.09 - 2025.10 : Tabular & 시계열 모델링 확장
+                      : 📈 DACON 토스 광고 CTR 예측 (LightGBM/XGBoost 42개 Feature 설계)
+                      : 🚨 DACON 해양수산부 이상감지 (센서 파생 변수 149개 설계)
+                      : 📊 Kaggle Hull Tactical Market Prediction (Walk-Forward CV 검증 모델링)
+    2025.11 - 2026.01 : 멀티모달 & 에이전트 융합
+                      : 🏆 KNU AI-conic 해커톤 최우수상 (SilverLink - Gemini 멀티모달 복지 도우미)
+                      : 💯 PlayMCP 공모전 100점 만점 (Weather Life MCP v3.7 개발)
+                      : ⚽ DACON K-리그 패스 좌표 예측 상위 7% (Delta 예측 및 준지도 학습 도입)
+    2026.02 : LLM Reasoning & 에이전트 고도화
+            : 🧮 Kaggle AIMO Progress Prize 3 (Qwen2.5-Math 기반 자율 실행 & Self-Correction 솔버 개발)
+            : 🩺 Kaggle MedGemma Impact Challenge (MedGemma Sentinel - Dual-Agent 의료 RAG 시스템)
+            : 💔 Kaggle Playground S6E2 심장 질환 예측 (Hill Climbing 앙상블 기법 적용)
+```
 
 ---
 
-## 📈 GitHub Stats & Problem Solving
+## 🛠️ Tech Stacks
 
-<div align="center">
-  <img height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=softkleenex&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="streak stats" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=softkleenex&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,html" alt="top langs" />
-</div>
+### AI/ML & Deep Learning
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LightGBM-008080?style=flat-square&logoColor=white"/>
+  <img src="https://img.shields.io/badge/XGBoost-1E90FF?style=flat-square&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CatBoost-FF0000?style=flat-square&logoColor=white"/>
+</p>
 
-<br>
+### LLM & Agentic AI
+<p align="left">
+  <img src="https://img.shields.io/badge/OpenAI_CLIP-412991?style=flat-square&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=googlegemini&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastMCP-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Qwen--Math-7C3AED?style=flat-square&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MedGemma-00C4FF?style=flat-square&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RAG_%26_FAISS-0052CC?style=flat-square&logoColor=white"/>
+</p>
 
-<div align="center">
-  <a href="https://solved.ac/softkleenex"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=softkleenex" alt="Solved.ac Profile" /></a>
-  <br>
-  <b>백준 온라인 저지 (C/Python)</b> - 그래프 탐색, 동적 계획법, 자료구조 중심 지속적 학 습
-</div>
+### Backend & Infrastructure
+<p align="left">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GCP_Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+</p>
 
 ---
 
-<div align="center">
+## 💎 Core Project Highlights
 
-### 📫 Connect with me
+### 1. 🩺 MedGemma Sentinel (Kaggle Impact Challenge)
+> **의료진용 고정밀 트리아지 및 환자용 의료 기록 번역 듀얼 에이전트 시스템**
+- **내용**: 환자의 증상을 받아 의학적 중증도를 4단계로 분석(트리아지)하고, 동시에 어렵고 딱딱한 의학 용어로 기록된 진단서를 어르신이나 일반 환자가 읽기 쉬운 구어체로 자동 요약 및 번역해 주는 복합 에이전트.
+- **주요 성과**:
+  - MedGemma 1.5-4B 모델 기반의 **Dual-Agent Architecture** 설계.
+  - MedQuAD 의학 데이터셋과 FAISS 벡터 DB를 연계한 RAG 파이프라인으로 **환각 현상(Hallucination) 완벽 제어**.
+  - 대학원 수준(Grade 15.3)의 의학 문서를 대중적 수준(Grade 7.2)의 쉬운 단어로 번역 성공.
+- **Tech Stack**: `Python`, `MedGemma 1.5-4B`, `FAISS`, `SentenceTransformers`, `RAG`
+- **👉 [GitHub 저장소 보기](https://github.com/softkleenex/medgemma-sentinel)**
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/softkleenex)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://kaggle.com/softkleenex)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:softkleenex1217@gmail.com)
+### 2. 🧮 AIMO Prize 3 Solver (Kaggle Competition)
+> **국제 수학 올림피아드(IMO) 수준의 복잡한 주관식 문제를 해결하는 자율 AI 시스템**
+- **내용**: 텍스트 형태의 수학 문제를 LLM이 읽고, 정밀한 계산을 수행하기 위한 Python 코드를 스스로 작성 및 실행하여 정답을 추출하는 자율적인 수학 문제 해결 알고리즘.
+- **주요 성과**:
+  - Qwen2.5-Math-7B 모델 기반의 **TIR (Tool-Integrated Reasoning) 파이프라인** 독자 설계.
+  - 실행 중 발생하는 에러를 캡처하여 스스로 프롬프트를 재구성 및 디버깅하는 **Self-Correction Logic (자가 수정 루프)** 구현.
+  - Kaggle Inference Server 환경에 맞추어 예외 및 타임아웃 처리를 포함한 **Thread-Safe 샌드박스** 구축.
+- **Tech Stack**: `Python`, `Qwen2.5-Math-7B`, `TIR (Tool-Integrated Reasoning)`, `LLM Agent`
+- **👉 [GitHub 저장소 보기](https://github.com/softkleenex/AMO_PP3)**
 
-![Profile Views](https://komarev.com/ghpvc/?username=softkleenex&color=58A6FF&style=flat-square)
+### 3. 💯 Weather Life MCP v3.7 (PlayMCP 공모전 만점)
+> **공공 API 데이터 및 과학적 건강 지수를 통합 제공하는 차세대 날씨 비서 에이전트 서버**
+- **내용**: 단순한 온습도 조회를 넘어, 세차·빨래·러닝 등 30개 일상 지수를 산출하고 사용자의 현 위치 및 상황(TPO)에 맞추어 실시간으로 맛집, 코스, 길찾기를 자동 추천하는 통합 에이전트.
+- **주요 성과**:
+  - FastMCP 프레임워크 기반 **30개 커스텀 툴(Tool) 개발** 및 기상청/카카오맵 API 연동.
+  - MIT/Yale 등 과학 논문 데이터에 기반하여 체감 온도, 열사병 지수 등 신뢰성 있는 건강 지수 산출 공식 구현.
+  - 공모전 심사 기준을 모두 만족하며 **100점 만점 평가 및 배포** 완료.
+- **Tech Stack**: `Python`, `FastMCP`, `Railway`, `REST API`, `Kakao Maps API`
+- **👉 [GitHub 저장소 보기](https://github.com/softkleenex/weather-life-mcp)**
 
-</div>
+### 4. 🏆 SilverLink (경북대 AI-conic 해커톤 최우수상)
+> **디지털 소외계층 어르신을 위한 구어체 기반 멀티모달 복지 혜택 추천 플랫폼**
+- **내용**: 모바일 인터페이스 조작에 취약한 고령층을 위해 복잡한 조건(소득, 가구원 등)을 음성 대화만으로 추출하고, 해당 어르신이 혜택을 받을 수 있는 정부 복지 혜택을 매칭 및 음성으로 안내해 주는 복지 배달 비서.
+- **주요 성과**:
+  - Google Gemini 2.5 Pro를 활용하여 음성과 텍스트가 양방향으로 연동되는 **멀티모달 대화 시스템** 기획 및 구축.
+  - 정부 복지 가이드라인 데이터를 RAG로 연계하여 오정보(할루시네이션)를 방지하고 추천 적합도 산정 로직 구현.
+  - **경북대학교 AI-conic 해커톤 최우수상 (2등, 상금 60만원) 수상**.
+- **Tech Stack**: `Python`, `Streamlit`, `Google Gemini API`, `RAG`, `STT/TTS`
+- **👉 [GitHub 저장소 보기](https://github.com/softkleenex/silverlink-hackathon-2025)**
+
+---
+
+## 🏆 Kaggle & DACON Competitions
+
+| 대회명 | 플랫폼 | 기간 | 역할 및 성과 | 핵심 방법론 |
+|---|---|---|---|---|
+| **K리그 패스 좌표 예측** | DACON | 25.12-26.01 | **상위 7% (121위 / 1,740팀)** | 절대 좌표 대신 변화량(Delta) 예측으로 문제 재정의, Iterative Pseudo-Labeling |
+| **자동차 뉴스 분류** | DACON | 25.09 | **정확도 100% 달성** | GPT-4o-mini 소형 모델에 대한 고도화된 퓨샷(Few-shot) 프롬프트 엔지니어링 |
+| **유전체 변이 감지** | DACON | 25.12 | 101위 | 데이터 불균형 해결을 위한 대조 학습(Contrastive Learning) 및 PyTorch 커스텀 손실 함수 설계 |
+| **토스 CTR 예측** | DACON | 25.10 | 모델링 담당 | LightGBM/XGBoost 앙상블 및 유저-광고 피처 상호작용 포함 42개 파생변수 생성 |
+| **Hull Tactical Market** | Kaggle | 25.10 | 시계열 모델링 | 금융 시계열 데이터의 데이터 누수(Data Leakage)를 원천 차단하는 Walk-Forward CV 기법 적용 |
+
+---
+
+## 🏫 Education & Activity
+
+- **🎓 경북대학교 컴퓨터학부 (대구)**
+  - 글로벌소프트웨어학과 주전공 / 인공지능공학부 부전공
+  - 2021.03 ~ 2027.03 (졸업 예정)
+- **🚀 SKT Fly AI 7기**
+  - 딥러닝, NLP, Computer Vision AI 핵심 이론 이수 및 팀 프로젝트 리딩
+  - 2025.06 ~ 2025.08 (최우수 수료)
+- **💡 Solved.ac (백준 온라인 저지)**
+  - 지속적인 알고리즘 및 문제해결 트레이닝 (**Gold 등급**)
+  - 그래프 이론, 동적 계획법(DP), 고급 자료구조 문제 해결 위주 학습
+
+---
+
+## 📬 Contact & Channels
+
+- **이메일**: [softkleenex1217@gmail.com](mailto:softkleenex1217@gmail.com)
+- **GitHub**: [github.com/softkleenex](https://github.com/softkleenex)
+- **Kaggle**: [kaggle.com/softkleenex](https://kaggle.com/softkleenex)
+
+<br/>
+<p align="center">
+  <b>방문해 주셔서 감사합니다! 함께 가치 있는 AI 시스템을 만들어가고 싶습니다. 🤝</b>
+</p>
