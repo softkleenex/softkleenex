@@ -27,18 +27,18 @@
 ```mermaid
 gantt
     title softkleenex (이상재) AI/ML & Engineering Gantt-Roadmap
-    dateFormat  YYYY-MM
+    dateFormat  YYYY-MM-DD
     axisFormat  %Y.%m
     
-    section 🧠 Above Axis (LLM & Multimodal AI)
-    🍔 YUM:AI - 아동 한식 이미지 푸드 추천 (CLIP, GCP)   :active, yum, 2025-06, 2025-08
-    🎙️ SilverLink - Gemini 음성 멀티모달 RAG (🏆 해커톤 2등) :active, silver, 2025-11, 2025-11
-    🩺 MedGemma Sentinel & Qwen-Math 자율 에이전트 :active, agent, 2026-02, 2026-02
+    section Above Axis (LLM & Multimodal AI)
+    YUM-AI 아동 음식 추천 - CLIP 및 GCP  :active, yum, 2025-06-01, 2025-08-31
+    SilverLink 복지 도우미 - Gemini RAG   :active, silver, 2025-11-01, 2025-11-30
+    MedGemma Sentinel 및 AIMO Solver      :active, agent, 2026-02-01, 2026-02-28
     
-    section ⚽ Below Axis (ML & Data Science)
-    🚗 DACON 자동차 뉴스 분류 (자체 검증 100%)       :active, news, 2025-09, 2025-09
-    🌤️ Weather Life MCP v3.7 개발 (공모전 출품작)       :active, weather, 2025-12, 2026-01
-    ⚽ DACON K리그 패스 좌표 예측 (준지도학습, Top 7%)   :active, league, 2025-12, 2026-01
+    section Below Axis (ML & Data Science)
+    DACON 자동차 뉴스 분류 - 자체 100%    :active, news, 2025-09-01, 2025-09-30
+    Weather Life MCP v3.7 - 공모전 출품작 :active, weather, 2025-12-01, 2026-01-31
+    DACON K리그 패스 좌표 - 상위 7%       :active, league, 2025-12-01, 2026-01-31
 ```
 
 ---
