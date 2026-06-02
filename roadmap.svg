@@ -1,272 +1,268 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" width="100%" height="100%">
   <defs>
-    <!-- Fonts -->
+    <!-- Premium Fonts & Hover Styles -->
     <style>
-      @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
-      
       .title {
-        font-family: 'Pretendard', 'Inter', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         font-weight: 800;
         font-size: 22px;
         fill: #f8fafc;
-        letter-spacing: -0.02em;
+        letter-spacing: -0.03em;
       }
       .subtitle {
-        font-family: 'Pretendard', 'Inter', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         font-weight: 500;
         font-size: 13px;
         fill: #38bdf8;
         letter-spacing: -0.01em;
       }
       .axis-label {
-        font-family: 'Inter', 'Pretendard', sans-serif;
+        font-family: "Segoe UI", Roboto, -apple-system, sans-serif;
         font-weight: 800;
         font-size: 11px;
-        fill: #94a3b8;
+        fill: #64748b;
+        letter-spacing: -0.02em;
       }
       .year-label {
-        font-family: 'Inter', sans-serif;
-        font-weight: 800;
-        font-size: 10px;
+        font-family: "Segoe UI", Roboto, -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 11px;
         fill: #3b82f6;
+        letter-spacing: 0.05em;
       }
       .card-title {
-        font-family: 'Pretendard', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         font-weight: 700;
         font-size: 12px;
         fill: #ffffff;
+        letter-spacing: -0.02em;
       }
       .card-subtitle {
-        font-family: 'Pretendard', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         font-weight: 600;
         font-size: 10px;
-        fill: #eff6ff;
-        opacity: 0.9;
+        fill: #93c5fd;
+        letter-spacing: -0.01em;
       }
       .card-desc {
-        font-family: 'Pretendard', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         font-weight: 500;
         font-size: 9px;
-        fill: #cbd5e1;
+        fill: #94a3b8;
+        letter-spacing: -0.01em;
       }
       .gantt-bar {
-        transition: transform 0.2s ease, filter 0.2s ease;
+        transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s ease;
         cursor: pointer;
       }
       .gantt-bar:hover {
         transform: translateY(-2px);
-        filter: brightness(1.15) drop-shadow(0 0 8px rgba(59, 130, 246, 0.4));
+        filter: brightness(1.1) drop-shadow(0 4px 12px rgba(37, 99, 235, 0.2));
       }
     </style>
 
     <!-- Glowing Filters -->
-    <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-    <filter id="glow-line" x="-10%" y="-50%" width="120%" height="200%">
+    <filter id="glow-axis" x="-10%" y="-50%" width="120%" height="200%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
     </filter>
 
     <!-- Gradients -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070a13" />
-      <stop offset="50%" stop-color="#0c1122" />
-      <stop offset="100%" stop-color="#05070e" />
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#070a13" />
+      <stop offset="100%" stop-color="#03050a" />
     </linearGradient>
 
     <linearGradient id="axis-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1e293b" />
-      <stop offset="30%" stop-color="#3b82f6" />
-      <stop offset="70%" stop-color="#a855f7" />
+      <stop offset="15%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="85%" stop-color="#ec4899" />
       <stop offset="100%" stop-color="#f43f5e" />
     </linearGradient>
 
-    <!-- Capsule Gradients -->
-    <linearGradient id="yum-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f97316" />
-      <stop offset="100%" stop-color="#ea580c" />
-    </linearGradient>
-    <linearGradient id="news-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#64748b" />
-      <stop offset="100%" stop-color="#475569" />
-    </linearGradient>
-    <linearGradient id="silver-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#a855f7" />
-      <stop offset="100%" stop-color="#7c3aed" />
-    </linearGradient>
-    <linearGradient id="weather-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#06b6d4" />
-      <stop offset="100%" stop-color="#0891b2" />
-    </linearGradient>
-    <linearGradient id="league-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10b981" />
-      <stop offset="100%" stop-color="#059669" />
-    </linearGradient>
-    <linearGradient id="agent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6" />
-      <stop offset="100%" stop-color="#1d4ed8" />
-    </linearGradient>
-    <linearGradient id="ml-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ec4899" />
-      <stop offset="100%" stop-color="#be185d" />
+    <!-- Card Borders / Fills -->
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.2" />
     </linearGradient>
   </defs>
 
   <!-- Background -->
   <rect width="1000" height="460" rx="16" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
   
-  <!-- Subtle Grid Pattern in background -->
-  <g opacity="0.03">
+  <!-- Subtle Grid Pattern -->
+  <g opacity="0.04">
     <path d="M 0,50 L 1000,50 M 0,100 L 1000,100 M 0,150 L 1000,150 M 0,200 L 1000,200 M 0,250 L 1000,250 M 0,300 L 1000,300 M 0,350 L 1000,350 M 0,400 L 1000,400" stroke="#ffffff" stroke-width="1" />
     <path d="M 100,0 L 100,460 M 200,0 L 200,460 M 300,0 L 300,460 M 400,0 L 400,460 M 500,0 L 500,460 M 600,0 L 600,460 M 700,0 L 700,460 M 800,0 L 800,460 M 900,0 L 900,460" stroke="#ffffff" stroke-width="1" />
   </g>
 
   <!-- Header Titles -->
-  <g transform="translate(30, 40)">
+  <g transform="translate(40, 45)">
     <text class="title" x="0" y="0">softkleenex (이상재) AI/ML &amp; Engineering Runway</text>
-    <text class="subtitle" x="0" y="22">🚀 단 9개월간 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 하이덴시티(High-Density) 성장 로드맵</text>
+    <text class="subtitle" x="0" y="22">🚀 단 9개월간 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 압축적 성장 여정 (Gantt-Roadmap)</text>
   </g>
 
   <!-- Central Time Runway (y = 230) -->
   <g>
     <!-- Axis Runway Line -->
-    <line x1="50" y1="230" x2="940" y2="230" stroke="url(#axis-grad)" stroke-width="5" stroke-linecap="round" filter="url(#glow-line)" />
+    <line x1="50" y1="230" x2="940" y2="230" stroke="url(#axis-grad)" stroke-width="4" stroke-linecap="round" filter="url(#glow-axis)" />
     
     <!-- Time Ticks / Nodes -->
     <!-- Jun (2025.06) x = 120 -->
-    <line x1="120" y1="222" x2="120" y2="238" stroke="#ffffff" stroke-width="2" />
-    <circle cx="120" cy="230" r="7" fill="#ffffff" stroke="#3b82f6" stroke-width="2.5" />
+    <circle cx="120" cy="230" r="6" fill="#3b82f6" stroke="#090d16" stroke-width="2" />
     <text class="year-label" x="120" y="210" text-anchor="middle">2025</text>
-    <text class="axis-label" x="120" y="250" text-anchor="middle">06월</text>
+    <text class="axis-label" x="120" y="252" text-anchor="middle">06월</text>
 
     <!-- Aug (2025.08) x = 240 -->
-    <line x1="240" y1="222" x2="240" y2="238" stroke="#ffffff" stroke-width="2" />
-    <circle cx="240" cy="230" r="7" fill="#ffffff" stroke="#3b82f6" stroke-width="2.5" />
-    <text class="axis-label" x="240" y="250" text-anchor="middle">08월</text>
+    <circle cx="240" cy="230" r="6" fill="#3b82f6" stroke="#090d16" stroke-width="2" />
+    <text class="axis-label" x="240" y="252" text-anchor="middle">08월</text>
 
     <!-- Sep (2025.09) x = 330 -->
-    <line x1="330" y1="222" x2="330" y2="238" stroke="#ffffff" stroke-width="2" />
-    <circle cx="330" cy="230" r="7" fill="#ffffff" stroke="#3b82f6" stroke-width="2.5" />
-    <text class="axis-label" x="330" y="250" text-anchor="middle">09월</text>
+    <circle cx="330" cy="230" r="6" fill="#3b82f6" stroke="#090d16" stroke-width="2" />
+    <text class="axis-label" x="330" y="252" text-anchor="middle">09월</text>
 
     <!-- Oct (2025.10) x = 420 -->
-    <line x1="420" y1="222" x2="420" y2="238" stroke="#ffffff" stroke-width="2" />
-    <circle cx="420" cy="230" r="7" fill="#ffffff" stroke="#3b82f6" stroke-width="2.5" />
-    <text class="axis-label" x="420" y="250" text-anchor="middle">10월</text>
+    <circle cx="420" cy="230" r="6" fill="#8b5cf6" stroke="#090d16" stroke-width="2" />
+    <text class="axis-label" x="420" y="252" text-anchor="middle">10월</text>
 
     <!-- Nov (2025.11) x = 520 -->
-    <line x1="520" y1="222" x2="520" y2="238" stroke="#ffffff" stroke-width="2" />
-    <circle cx="520" cy="230" r="7" fill="#ffffff" stroke="#a855f7" stroke-width="2.5" />
-    <text class="axis-label" x="520" y="250" text-anchor="middle">11월</text>
+    <circle cx="520" cy="230" r="6" fill="#8b5cf6" stroke="#090d16" stroke-width="2" />
+    <text class="axis-label" x="520" y="252" text-anchor="middle">11월</text>
 
     <!-- Dec (2025.12) x = 640 -->
-    <line x1="640" y1="222" x2="640" y2="238" stroke="#ffffff" stroke-width="2" />
-    <circle cx="640" cy="230" r="7" fill="#ffffff" stroke="#a855f7" stroke-width="2.5" />
-    <text class="axis-label" x="640" y="250" text-anchor="middle">12월</text>
+    <circle cx="640" cy="230" r="6" fill="#ec4899" stroke="#090d16" stroke-width="2" />
+    <text class="axis-label" x="640" y="252" text-anchor="middle">12월</text>
 
     <!-- Jan (2026.01) x = 760 -->
-    <line x1="760" y1="222" x2="760" y2="238" stroke="#ffffff" stroke-width="2" />
-    <circle cx="760" cy="230" r="7" fill="#ffffff" stroke="#a855f7" stroke-width="2.5" />
+    <circle cx="760" cy="230" r="6" fill="#ec4899" stroke="#090d16" stroke-width="2" />
     <text class="year-label" x="760" y="210" text-anchor="middle">2026</text>
-    <text class="axis-label" x="760" y="250" text-anchor="middle">01월</text>
+    <text class="axis-label" x="760" y="252" text-anchor="middle">01월</text>
 
     <!-- Feb (2026.02) x = 880 -->
-    <line x1="880" y1="222" x2="880" y2="238" stroke="#ffffff" stroke-width="2" />
-    <circle cx="880" cy="230" r="7" fill="#ffffff" stroke="#f43f5e" stroke-width="2.5" />
-    <text class="axis-label" x="880" y="250" text-anchor="middle">02월</text>
+    <circle cx="880" cy="230" r="6" fill="#f43f5e" stroke="#090d16" stroke-width="2" />
+    <text class="axis-label" x="880" y="252" text-anchor="middle">02월</text>
   </g>
 
   <!-- Connectors (Dashed Lines linking capsules to axis) -->
-  <g stroke="#475569" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6">
-    <!-- YUM:AI connect Jun-Aug -->
+  <g stroke="#334155" stroke-width="1" stroke-dasharray="3,3" opacity="0.6">
     <path d="M 180,145 L 180,230" />
-    <!-- DACON News connect Sep -->
     <path d="M 325,290 L 325,230" />
-    <!-- ML Ensemble connect Oct -->
-    <path d="M 420,360 L 420,230" />
-    <!-- SilverLink connect Nov -->
+    <path d="M 420,355 L 420,230" />
     <path d="M 525,115 L 525,230" />
-    <!-- Weather Life connect Dec-Jan -->
     <path d="M 680,290 L 680,230" />
-    <!-- K-League connect Dec-Jan -->
-    <path d="M 680,360 L 680,230" />
-    <!-- MedGemma connect Feb -->
-    <path d="M 877.5,115 L 877.5,230" />
-    <!-- AIMO connect Feb -->
-    <path d="M 877.5,135 L 877.5,230" />
+    <path d="M 680,355 L 680,230" />
+    <path d="M 877,115 L 877,230" />
+    <path d="M 877,130 L 877,230" />
   </g>
 
-  <!-- ABOVE AXIS PROJECTS -->
+  <!-- ABOVE AXIS PROJECTS (Figma Card Style) -->
   
   <!-- YUM:AI 아동 음식 추천 (Jun - Aug) -->
-  <g class="gantt-bar" transform="translate(100, 95)">
-    <rect width="160" height="50" rx="8" fill="url(#yum-grad)" stroke="#ea580c" stroke-width="1" />
-    <text class="card-title" x="12" y="18">🍔 YUM:AI 아동 푸드 추천</text>
-    <text class="card-subtitle" x="12" y="30">SKT Fly AI 7기 최우수 수료</text>
-    <text class="card-desc" x="12" y="41">CLIP 이미지 인식서빙 (GCP 배포)</text>
+  <g class="gantt-bar" transform="translate(100, 95)" filter="url(#card-shadow)">
+    <rect width="165" height="50" rx="10" fill="#0f172a" stroke="url(#card-border)" stroke-width="1.5" />
+    <rect width="3" height="50" rx="1.5" fill="#f97316" />
+    <!-- Vector Icon: Food Plate / Aperture -->
+    <circle cx="24" cy="25" r="8" fill="none" stroke="#f97316" stroke-width="1.5" />
+    <path d="M 21,25 L 27,25 M 24,22 L 24,28" stroke="#f97316" stroke-width="1.5" stroke-linecap="round" />
+    
+    <text class="card-title" x="40" y="19">YUM:AI 아동 푸드 추천</text>
+    <text class="card-subtitle" x="40" y="31">SKT Fly AI 7기 최우수</text>
+    <text class="card-desc" x="40" y="41">CLIP 이미지 인식서빙 (GCP)</text>
   </g>
 
   <!-- SilverLink 복지 도우미 (Nov) -->
-  <g class="gantt-bar" transform="translate(440, 60)">
-    <rect width="170" height="55" rx="8" fill="url(#silver-grad)" stroke="#7c3aed" stroke-width="1" />
-    <text class="card-title" x="12" y="18">🎙️ SilverLink 복지 도우미</text>
-    <text class="card-subtitle" x="12" y="32">🏆 KNU 해커톤 최우수상 (2등)</text>
-    <text class="card-desc" x="12" y="45">Gemini 멀티모달 음성대화 RAG</text>
+  <g class="gantt-bar" transform="translate(440, 60)" filter="url(#card-shadow)">
+    <rect width="170" height="55" rx="10" fill="#0f172a" stroke="url(#card-border)" stroke-width="1.5" />
+    <rect width="3" height="55" rx="1.5" fill="#a855f7" />
+    <!-- Vector Icon: Microphone/Audio Wave -->
+    <path d="M 21,20 H 27 V 27 H 21 Z M 18,22 C 18,28 30,28 30,22 M 24,27 V 31" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round" />
+    
+    <text class="card-title" x="40" y="19">SilverLink 복지 도우미</text>
+    <text class="card-subtitle" x="40" y="32">KNU 해커톤 최우수상 (2등)</text>
+    <text class="card-desc" x="40" y="44">Gemini 멀티모달 음성 RAG</text>
   </g>
 
   <!-- MedGemma Sentinel (Feb) -->
-  <g class="gantt-bar" transform="translate(790, 60)">
-    <rect width="175" height="55" rx="8" fill="url(#agent-grad)" stroke="#1d4ed8" stroke-width="1" />
-    <text class="card-title" x="12" y="18">🩺 MedGemma Sentinel</text>
-    <text class="card-subtitle" x="12" y="32">Kaggle Impact Challenge</text>
-    <text class="card-desc" x="12" y="45">Dual-Agent 의료 RAG 시스템</text>
+  <g class="gantt-bar" transform="translate(790, 60)" filter="url(#card-shadow)">
+    <rect width="175" height="55" rx="10" fill="#0f172a" stroke="url(#card-border)" stroke-width="1.5" />
+    <rect width="3" height="55" rx="1.5" fill="#3b82f6" />
+    <!-- Vector Icon: Shield / Medical Cross -->
+    <path d="M 20,18 H 28 V 30 H 20 Z" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.3" />
+    <path d="M 21,24 H 27 M 24,21 L 24,27" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" />
+    
+    <text class="card-title" x="40" y="19">MedGemma Sentinel</text>
+    <text class="card-subtitle" x="40" y="32">Kaggle Impact Challenge</text>
+    <text class="card-desc" x="40" y="44">Dual-Agent 의료 RAG 시스템</text>
   </g>
 
   <!-- AIMO Solver (Feb) -->
-  <g class="gantt-bar" transform="translate(790, 130)">
-    <rect width="175" height="55" rx="8" fill="url(#ml-grad)" stroke="#be185d" stroke-width="1" />
-    <text class="card-title" x="12" y="18">🧮 AIMO Prize 3 Solver</text>
-    <text class="card-subtitle" x="12" y="32">Kaggle IMO 수학 에이전트</text>
-    <text class="card-desc" x="12" y="45">Qwen-Math 자율 실행/자가 수정</text>
+  <g class="gantt-bar" transform="translate(790, 130)" filter="url(#card-shadow)">
+    <rect width="175" height="55" rx="10" fill="#0f172a" stroke="url(#card-border)" stroke-width="1.5" />
+    <rect width="3" height="55" rx="1.5" fill="#ec4899" />
+    <!-- Vector Icon: Math Spark -->
+    <path d="M 24,18 L 26,22 L 30,24 L 26,26 L 24,30 L 22,26 L 18,24 L 22,22 Z" fill="#ec4899" />
+    
+    <text class="card-title" x="40" y="19">AIMO Prize 3 Solver</text>
+    <text class="card-subtitle" x="40" y="32">Kaggle IMO 수학 에이전트</text>
+    <text class="card-desc" x="40" y="44">Qwen-Math 자율 Self-Correction</text>
   </g>
 
 
-  <!-- BELOW AXIS PROJECTS -->
+  <!-- BELOW AXIS PROJECTS (Figma Card Style) -->
 
   <!-- DACON 자동차 뉴스 분류 (Sep) -->
-  <g class="gantt-bar" transform="translate(250, 290)">
-    <rect width="150" height="45" rx="8" fill="url(#news-grad)" stroke="#475569" stroke-width="1" />
-    <text class="card-title" x="12" y="16">🚗 자동차 뉴스 분류 AI</text>
-    <text class="card-subtitle" x="12" y="27">DACON 경진대회 참가</text>
-    <text class="card-desc" x="12" y="37">GPT-4o-mini 퓨샷 자체 100%</text>
+  <g class="gantt-bar" transform="translate(252, 290)" filter="url(#card-shadow)">
+    <rect width="150" height="45" rx="10" fill="#0f172a" stroke="url(#card-border)" stroke-width="1.5" />
+    <rect width="3" height="45" rx="1.5" fill="#64748b" />
+    <!-- Vector Icon: Document/Article -->
+    <path d="M 20,18 H 28 V 28 H 20 Z M 23,21 H 25 M 23,24 H 25" fill="none" stroke="#64748b" stroke-width="1.5" stroke-linecap="round" />
+    
+    <text class="card-title" x="40" y="17">자동차 뉴스 분류 AI</text>
+    <text class="card-subtitle" x="40" y="28">DACON 경진대회 참가</text>
+    <text class="card-desc" x="40" y="37">GPT-4o-mini 퓨샷 자체 100%</text>
   </g>
 
-  <!-- ML 앙상블 확장 (Oct) -->
-  <g class="gantt-bar" transform="translate(340, 355)">
-    <rect width="160" height="65" rx="8" fill="url(#news-grad)" stroke="#334155" stroke-width="1" />
-    <text class="card-title" x="12" y="16">📈 ML 앙상블 분석 확장</text>
-    <text class="card-subtitle" x="12" y="28">DACON CTR &amp; Kaggle 시계열</text>
-    <text class="card-desc" x="12" y="42">센서 149개 피처 설계 / 앙상블</text>
-    <text class="card-desc" x="12" y="53">Tactical Market (Walk-Forward)</text>
+  <!-- ML 앙상블 분석 확장 (Oct) -->
+  <g class="gantt-bar" transform="translate(340, 355)" filter="url(#card-shadow)">
+    <rect width="160" height="65" rx="10" fill="#0f172a" stroke="url(#card-border)" stroke-width="1.5" />
+    <rect width="3" height="65" rx="1.5" fill="#84cc16" />
+    <!-- Vector Icon: Trend Chart -->
+    <path d="M 18,28 L 22,23 L 26,26 L 30,19" fill="none" stroke="#84cc16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <text class="card-title" x="40" y="16">ML 앙상블 분석 확장</text>
+    <text class="card-subtitle" x="40" y="28">DACON CTR &amp; Kaggle 금융</text>
+    <text class="card-desc" x="40" y="41">센서 149개 피처 / CV 누수차단</text>
+    <text class="card-desc" x="40" y="52">Walk-Forward 시계열 모델링</text>
   </g>
 
   <!-- Weather Life MCP v3.7 (Dec - Jan) -->
-  <g class="gantt-bar" transform="translate(600, 290)">
-    <rect width="160" height="50" rx="8" fill="url(#weather-grad)" stroke="#0891b2" stroke-width="1" />
-    <text class="card-title" x="12" y="18">🌤️ Weather Life MCP v3.7</text>
-    <text class="card-subtitle" x="12" y="30">PlayMCP 공모전 출품작</text>
-    <text class="card-desc" x="12" y="41">FastMCP 30개 커스텀 툴/API</text>
+  <g class="gantt-bar" transform="translate(600, 290)" filter="url(#card-shadow)">
+    <rect width="160" height="50" rx="10" fill="#0f172a" stroke="url(#card-border)" stroke-width="1.5" />
+    <rect width="3" height="50" rx="1.5" fill="#06b6d4" />
+    <!-- Vector Icon: Server Cloud -->
+    <path d="M 19,25 C 19,21 29,21 29,25 M 17,28 H 31 V 31 H 17 Z" fill="none" stroke="#06b6d4" stroke-width="1.5" stroke-linecap="round" />
+    
+    <text class="card-title" x="40" y="19">Weather Life MCP v3.7</text>
+    <text class="card-subtitle" x="40" y="30">PlayMCP 공모전 출품작</text>
+    <text class="card-desc" x="40" y="41">FastMCP 30개 커스텀 툴/API</text>
   </g>
 
   <!-- DACON K-League 좌표 예측 (Dec - Jan) -->
-  <g class="gantt-bar" transform="translate(600, 355)">
-    <rect width="160" height="50" rx="8" fill="url(#league-grad)" stroke="#059669" stroke-width="1" />
-    <text class="card-title" x="12" y="18">⚽ K리그 패스 좌표 예측</text>
-    <text class="card-subtitle" x="12" y="30">DACON 상위 7% (121위)</text>
-    <text class="card-desc" x="12" y="41">Delta 변화량 &amp; Pseudo-Labeling</text>
+  <g class="gantt-bar" transform="translate(600, 355)" filter="url(#card-shadow)">
+    <rect width="160" height="50" rx="10" fill="#0f172a" stroke="url(#card-border)" stroke-width="1.5" />
+    <rect width="3" height="50" rx="1.5" fill="#10b981" />
+    <!-- Vector Icon: Target/Coordinate -->
+    <circle cx="24" cy="25" r="7" fill="none" stroke="#10b981" stroke-width="1.5" />
+    <circle cx="24" cy="25" r="2" fill="#10b981" />
+    
+    <text class="card-title" x="40" y="19">K리그 패스 좌표 예측</text>
+    <text class="card-subtitle" x="40" y="30">DACON 상위 7% (121위)</text>
+    <text class="card-desc" x="40" y="41">Delta 변화량 &amp; 준지도 학습</text>
   </g>
 
 </svg>
