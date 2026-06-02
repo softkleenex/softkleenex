@@ -22,24 +22,11 @@
 ---
 
 ## 📅 Chronological AI & Engineering Roadmap
-*중앙 연대기 축을 기준으로, 각 프로젝트별 실제 진행 기간을 표시한 **수평형 간트 차트(Gantt-Roadmap)**입니다. 화살표(바)들이 위아래에 겹치지 않게 배치되어 각 프로젝트의 일정과 스택을 직관적으로 보여줍니다.*
+*단 9개월간 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 압축적 성장 여정(High-Density Growth Runway)입니다. 중앙 연대기 축을 중심으로 겹치지 않게 구조화되어 한눈에 밀도 높은 활동 내역을 확인하실 수 있습니다.*
 
-```mermaid
-gantt
-    title softkleenex (이상재) AI/ML & Engineering Gantt-Roadmap
-    dateFormat  YYYY-MM-DD
-    axisFormat  %Y.%m
-    
-    section Above Axis (LLM & Multimodal AI)
-    YUM-AI 아동 음식 추천 - CLIP 및 GCP  :active, yum, 2025-06-01, 2025-08-31
-    SilverLink 복지 도우미 - Gemini RAG   :active, silver, 2025-11-01, 2025-11-30
-    MedGemma Sentinel 및 AIMO Solver      :active, agent, 2026-02-01, 2026-02-28
-    
-    section Below Axis (ML & Data Science)
-    DACON 자동차 뉴스 분류 - 자체 100%    :active, news, 2025-09-01, 2025-09-30
-    Weather Life MCP v3.7 - 공모전 출품작 :active, weather, 2025-12-01, 2026-01-31
-    DACON K리그 패스 좌표 - 상위 7%       :active, league, 2025-12-01, 2026-01-31
-```
+<p align="center">
+  <img src="roadmap.svg" alt="softkleenex AI & Engineering Gantt-Roadmap" width="100%" />
+</p>
 
 ---
 
@@ -73,7 +60,7 @@ gantt
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/GCP_Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&fill=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 </p>
 
