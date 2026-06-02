@@ -21,12 +21,19 @@
 
 ---
 
-## 📅 Chronological AI & Engineering Roadmap
-*단 9개월간 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 압축적 성장 여정(High-Density Growth Runway)입니다. 중앙 연대기 축을 중심으로 겹치지 않게 구조화되어 한눈에 밀도 높은 활동 내역을 확인하실 수 있습니다.*
+## 📅 Chronological AI & ML Roadmap
+*단 9개월간 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 압축적 성장 여정(High-Density Runway)입니다. 깃허브 최적화 마크다운 테이블과 기술 스택 배지를 활용하여 모바일 등 어떤 기기에서도 글자 깨짐 없이 100% 완벽하게 렌더링되며, 텍스트 수정만으로 관리가 매우 용이합니다.*
 
-<p align="center">
-  <img src="roadmap.svg" alt="softkleenex AI & Engineering Gantt-Roadmap" width="100%" />
-</p>
+| 수행 기간 | 프로젝트 및 활동 내용 | 핵심 기술 스택 (Tech Stack) | 주요 성과 & 역할 |
+|:---|:---|:---|:---|
+| **2026.02** | 🩺 **MedGemma Sentinel**<br>의료진용 실시간 트리아지 및 환자용 의료기록 번역 시스템 | ![](https://img.shields.io/badge/MedGemma-00C4FF?style=flat-square) ![](https://img.shields.io/badge/RAG-0052CC?style=flat-square) ![](https://img.shields.io/badge/FAISS-0052CC?style=flat-square) | Kaggle Impact Challenge 출품<br>Dual-Agent RAG 파이프라인 구축 (환각 완벽 제어) |
+| **2026.02** | 🧮 **AIMO Prize 3 Solver**<br>국제 수학 올림피아드(IMO) 문제 해결 자율 AI | ![](https://img.shields.io/badge/Qwen_Math-7C3AED?style=flat-square) ![](https://img.shields.io/badge/TIR_Sandbox-000000?style=flat-square) | Qwen2.5-Math 기반 자율 실행 에이전트 개발<br>코드 에러 자체 수정(Self-Correction) 디버깅 구현 |
+| **2025.12 - 01** | 🌤️ **Weather Life MCP v3.7**<br>실시간 기상 공공 API 및 카카오맵 장소 추천 서버 | ![](https://img.shields.io/badge/FastMCP-009688?style=flat-square) ![](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square) | PlayMCP 공모전 출품작<br>30개 커스텀 툴 및 API 통합 (자체 규격 100% 통과) |
+| **2025.12 - 01** | ⚽ **DACON K리그 패스 좌표 예측**<br>마지막 패스의 x, y 도착 좌표 예측 ML 모델 | ![](https://img.shields.io/badge/CatBoost-FF0000?style=flat-square) ![](https://img.shields.io/badge/LightGBM-008080?style=flat-square) | **DACON 상위 7% (121위 / 1,740팀)**<br>시작점 대비 변화량 예측 재정의 & Pseudo-Labeling |
+| **2025.11** | 🎙️ **SilverLink - AI 복지 도우미**<br>고령 디지털 소외계층을 위한 대화형 복지 매칭 서비스 | ![](https://img.shields.io/badge/Gemini_Pro-4285F4?style=flat-square) ![](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square) | **경북대 AI-conic 해커톤 최우수상 (2등) 수상**<br>음성 멀티모달 입출력 및 RAG 매칭 알고리즘 설계 |
+| **2025.09 - 10** | 📈 **ML 앙상블 CTR & 시계열 분석**<br>토스 CTR 예측 및 Playground 심장 질환 예측 | ![](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square) ![](https://img.shields.io/badge/LightGBM-008080?style=flat-square) | Toss 광고 42개 피처 설계 및 앙상블 적용<br>Hull 시계열 Walk-Forward CV 누수 차단 |
+| **2025.09** | 🚗 **DACON 자동차 뉴스 분류 AI**<br>텍스트 카테고리 고속 자동 분류 모델 | ![](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square) | **자체 검증 데이터셋 정확도 100% 달성**<br>소형 모델에 대한 고품질 Few-shot 프롬프트 설계 |
+| **2025.06 - 08** | 🍔 **YUM:AI - 아동 푸드 추천 시스템**<br>CLIP 기반 한식 이미지 인식 및 캐릭터 영양 관리 | ![](https://img.shields.io/badge/FastAPI-009688?style=flat-square) ![](https://img.shields.io/badge/CLIP-412991?style=flat-square) ![](https://img.shields.io/badge/Docker-2496ED?style=flat-square) | **SKT Fly AI 7기 최우수 성적 수료**<br>자체 데이터 CLIP 92% 분류 달성 및 GCP Cloud Run 배포 |
 
 ---
 
@@ -60,7 +67,7 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/GCP_Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&fill=white"/>
+  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 </p>
 
