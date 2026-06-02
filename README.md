@@ -15,7 +15,7 @@
 
 저는 경북대학교 컴퓨터학부에서 글로벌소프트웨어를 전공하고 인공지능공학부를 부전공하며 이론적 기반을 견고히 다졌습니다. 단순히 모델을 학습시키는 것에 그치지 않고, **고성능 AI 모델과 실서비스 백엔드 파이프라인의 유기적인 연결**에 깊은 관심을 가지고 있습니다.
 
-- **실전 문제 해결 능력**: DACON 패스 좌표 예측 대회 **상위 7% (121위)**, **PlayMCP 공모전 100점 만점** 등 다수의 경진대회와 프로젝트에서 실력을 검증해 왔습니다.
+- **실전 문제 해결 능력**: DACON 패스 좌표 예측 대회 **상위 7% (121위)**, **PlayMCP 공모전 출품 (자체 규격 테스트 100% 만족)** 등 다수의 경진대회와 프로젝트에서 실력을 검증해 왔습니다.
 - **최신 AI 에이전트 설계**: MedGemma 의료 AI, AIMO 자율 수학 솔버(Tool-Integrated Reasoning), FastMCP 기반 생활 지수 추천 서버 등 최신 LLM 및 에이전트 시스템 아키텍처를 선제적으로 설계하고 구현합니다.
 - **기획 및 팀 협업 역량**: SKT Fly AI, KNU 해커톤 최우수상 등을 거치며 서비스 기획 단계부터 클라우드 배포 및 모니터링까지 전 과정을 주도적으로 이끌어내는 협업 중심의 인재입니다.
 
@@ -40,7 +40,7 @@ timeline
                       : 📊 Kaggle Hull Tactical Market Prediction (Walk-Forward CV 검증 모델링)
     2025.11 - 2026.01 : 멀티모달 & 에이전트 융합
                       : 🏆 KNU AI-conic 해커톤 최우수상 (SilverLink - Gemini 멀티모달 복지 도우미)
-                      : 💯 PlayMCP 공모전 100점 만점 (Weather Life MCP v3.7 개발)
+                      : 🌤️ Weather Life MCP v3.7 개발 (PlayMCP 공모전 출품작)
                       : ⚽ DACON K-리그 패스 좌표 예측 상위 7% (Delta 예측 및 준지도 학습 도입)
     2026.02 : LLM Reasoning & 에이전트 고도화
             : 🧮 Kaggle AIMO Progress Prize 3 (Qwen2.5-Math 기반 자율 실행 & Self-Correction 솔버 개발)
@@ -59,8 +59,8 @@ timeline
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/LightGBM-008080?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XGBoost-1E90FF?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CatBoost-FF0000?style=flat-square&logoColor=white"/>
+  <img src="https://img.shields.io/badge/XGBoost-1E90FF?style=flat-square&logo=xgboost&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CatBoost-FF0000?style=flat-square&logo=catboost&logoColor=white"/>
 </p>
 
 ### LLM & Agentic AI
@@ -69,8 +69,8 @@ timeline
   <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=googlegemini&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastMCP-009688?style=flat-square&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Qwen--Math-7C3AED?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MedGemma-00C4FF?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RAG_%26_FAISS-0052CC?style=flat-square&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MedGemma-00C4FF?style=flat-square&logo=medgemma&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RAG_%26_FAISS-0052CC?style=flat-square&logo=rag&logoColor=white"/>
 </p>
 
 ### Backend & Infrastructure
@@ -108,13 +108,14 @@ timeline
 - **Tech Stack**: `Python`, `Qwen2.5-Math-7B`, `TIR (Tool-Integrated Reasoning)`, `LLM Agent`
 - **👉 [GitHub 저장소 보기](https://github.com/softkleenex/AMO_PP3)**
 
-### 3. 💯 Weather Life MCP v3.7 (PlayMCP 공모전 만점)
+### 3. 🌤️ Weather Life MCP v3.7 (PlayMCP 공모전 출품작)
 > **공공 API 데이터 및 과학적 건강 지수를 통합 제공하는 차세대 날씨 비서 에이전트 서버**
 - **내용**: 단순한 온습도 조회를 넘어, 세차·빨래·러닝 등 30개 일상 지수를 산출하고 사용자의 현 위치 및 상황(TPO)에 맞추어 실시간으로 맛집, 코스, 길찾기를 자동 추천하는 통합 에이전트.
 - **주요 성과**:
   - FastMCP 프레임워크 기반 **30개 커스텀 툴(Tool) 개발** 및 기상청/카카오맵 API 연동.
+  - **FastMCP 표준 프로토콜 규격 및 30개 커스텀 도구 구현 기준 자체 테스트 100% 통과**.
   - MIT/Yale 등 과학 논문 데이터에 기반하여 체감 온도, 열사병 지수 등 신뢰성 있는 건강 지수 산출 공식 구현.
-  - 공모전 심사 기준을 모두 만족하며 **100점 만점 평가 및 배포** 완료.
+  - 사용자의 위치(TPO)에 기반하여 카카오맵 API를 연계한 맛집, 추천 장소, 코스 링크의 완전 자동화 맵핑 기능 탑재.
 - **Tech Stack**: `Python`, `FastMCP`, `Railway`, `REST API`, `Kakao Maps API`
 - **👉 [GitHub 저장소 보기](https://github.com/softkleenex/weather-life-mcp)**
 
@@ -135,9 +136,10 @@ timeline
 | 대회명 | 플랫폼 | 기간 | 역할 및 성과 | 핵심 방법론 |
 |---|---|---|---|---|
 | **K리그 패스 좌표 예측** | DACON | 25.12-26.01 | **상위 7% (121위 / 1,740팀)** | 절대 좌표 대신 변화량(Delta) 예측으로 문제 재정의, Iterative Pseudo-Labeling |
-| **자동차 뉴스 분류** | DACON | 25.09 | **정확도 100% 달성** | GPT-4o-mini 소형 모델에 대한 고도화된 퓨샷(Few-shot) 프롬프트 엔지니어링 |
-| **유전체 변이 감지** | DACON | 25.12 | 101위 | 데이터 불균형 해결을 위한 대조 학습(Contrastive Learning) 및 PyTorch 커스텀 손실 함수 설계 |
-| **토스 CTR 예측** | DACON | 25.10 | 모델링 담당 | LightGBM/XGBoost 앙상블 및 유저-광고 피처 상호작용 포함 42개 파생변수 생성 |
+| **자동차 뉴스 분류 AI** | DACON | 25.09 | **정확도 100% 달성** | GPT-4o-mini 소형 모델에 대한 고도화된 퓨샷(Few-shot) 프롬프트 엔지니어링 |
+| **PlayMCP 개발 공모전** | GitHub | 26.01 | **Weather MCP 출품** | **30개 커스텀 툴 및 API 통합**, Weather MCP 개발 (자체 규격 테스트 100% 통과) |
+| **유전체 변이 감지 AI** | DACON | 25.12 | 단독 참여 (101위) | 데이터 불균형 해결을 위한 대조 학습(Contrastive Learning) 및 PyTorch 커스텀 손실 함수 설계 |
+| **토스 광고 CTR 예측** | DACON | 25.10 | 모델링 담당 | LightGBM/XGBoost 앙상블 및 유저-광고 피처 상호작용 포함 42개 파생변수 생성 |
 | **Hull Tactical Market** | Kaggle | 25.10 | 시계열 모델링 | 금융 시계열 데이터의 데이터 누수(Data Leakage)를 원천 차단하는 Walk-Forward CV 기법 적용 |
 
 ---
