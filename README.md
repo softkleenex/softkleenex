@@ -21,29 +21,62 @@
 
 ---
 
-## 📅 Chronological AI & ML Roadmap
-*단 9개월간 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 압축적 성장 여정(High-Density Growth Runway)입니다.*
+## 📅 Chronological AI & ML Timeline (연도별 성장 타임라인)
+*단 9개월 동안 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 압축적 성장 여정(High-Density Growth Timeline)입니다.*
 
-<p align="center">
-  <img src="roadmap.png" alt="softkleenex AI & Engineering Gantt-Roadmap" width="100%" />
-</p>
+### 🚀 2026
+* **`02월` 🩺 MedGemma Sentinel (Kaggle Impact Challenge)**
+  > 의료진용 실시간 트리아지 및 환자용 의료기록 번역 듀얼 에이전트 시스템
+  - MedGemma 1.5-4B 기반 RAG 파이프라인 설계로 환각 현상(Hallucination) 원천 차단
+  - 🛠️ `MedGemma 1.5-4B` `FAISS` `SentenceTransformers` `RAG`
+  - 🔗 [GitHub Repository](https://github.com/softkleenex/medgemma-sentinel)
 
-<details>
-<summary><b>🔍 텍스트로 상세히 보기 (상세 내용 및 텍스트 데이터가 필요하시면 여기를 클릭하세요)</b></summary>
-<br/>
+* **`02월` 🧮 AIMO Prize 3 Solver (Kaggle Competition)**
+  > 국제 수학 올림피아드(IMO) 수준 주관식 문항 해결 자율 AI 시스템
+  - Qwen2.5-Math-7B 모델 기반 TIR 파이프라인 및 에러 자가 수정 루프 구현
+  - 🛠️ `Qwen2.5-Math-7B` `TIR Sandbox` `Self-Correction`
+  - 🔗 [GitHub Repository](https://github.com/softkleenex/AMO_PP3)
 
-| 수행 기간 | 프로젝트 및 활동 내용 | 핵심 기술 스택 (Tech Stack) | 주요 성과 & 역할 |
-|:---|:---|:---|:---|
-| **2026.02** | 🩺 **MedGemma Sentinel**<br>의료진용 실시간 트리아지 및 환자용 의료기록 번역 시스템 | ![](https://img.shields.io/badge/MedGemma-00C4FF?style=flat-square) ![](https://img.shields.io/badge/RAG-0052CC?style=flat-square) ![](https://img.shields.io/badge/FAISS-0052CC?style=flat-square) | Kaggle Impact Challenge 출품<br>Dual-Agent RAG 파이프라인 구축 (환각 완벽 제어) |
-| **2026.02** | 🧮 **AIMO Prize 3 Solver**<br>국제 수학 올림피아드(IMO) 문제 해결 자율 AI | ![](https://img.shields.io/badge/Qwen_Math-7C3AED?style=flat-square) ![](https://img.shields.io/badge/TIR_Sandbox-000000?style=flat-square) | Qwen2.5-Math 기반 자율 실행 에이전트 개발<br>코드 에러 자체 수정(Self-Correction) 디버깅 구현 |
-| **2025.12 - 01** | 🌤️ **Weather Life MCP v3.7**<br>실시간 기상 공공 API 및 카카오맵 장소 추천 서버 | ![](https://img.shields.io/badge/FastMCP-009688?style=flat-square) ![](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square) | PlayMCP 공모전 출품작<br>30개 커스텀 툴 및 API 통합 (자체 규격 100% 통과) |
-| **2025.12 - 01** | ⚽ **DACON K리그 패스 좌표 예측**<br>마지막 패스의 x, y 도착 좌표 예측 ML 모델 | ![](https://img.shields.io/badge/CatBoost-FF0000?style=flat-square) ![](https://img.shields.io/badge/LightGBM-008080?style=flat-square) | **DACON 상위 7% (121위 / 1,740팀)**<br>시작점 대비 변화량 예측 재정의 & Pseudo-Labeling |
-| **2025.11** | 🎙️ **SilverLink - AI 복지 도우미**<br>고령 디지털 소외계층을 위한 대화형 복지 매칭 서비스 | ![](https://img.shields.io/badge/Gemini_Pro-4285F4?style=flat-square) ![](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square) | **경북대 AI-conic 해커톤 최우수상 (2등) 수상**<br>음성 멀티모달 입출력 및 RAG 매칭 알고리즘 설계 |
-| **2025.09 - 10** | 📈 **ML 앙상블 CTR & 시계열 분석**<br>토스 CTR 예측 및 Playground 심장 질환 예측 | ![](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square) ![](https://img.shields.io/badge/LightGBM-008080?style=flat-square) | Toss 광고 42개 피처 설계 및 앙상블 적용<br>Hull 시계열 Walk-Forward CV 누수 차단 |
-| **2025.09** | 🚗 **DACON 자동차 뉴스 분류 AI**<br>텍스트 카테고리 고속 자동 분류 모델 | ![](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square) | **자체 검증 데이터셋 정확도 100% 달성**<br>소형 모델에 대한 고품질 Few-shot 프롬프트 설계 |
-| **2025.06 - 08** | 🍔 **YUM:AI - 아동 푸드 추천 시스템**<br>CLIP 기반 한식 이미지 인식 및 캐릭터 영양 관리 | ![](https://img.shields.io/badge/FastAPI-009688?style=flat-square) ![](https://img.shields.io/badge/CLIP-412991?style=flat-square) ![](https://img.shields.io/badge/Docker-2496ED?style=flat-square) | **SKT Fly AI 7기 최우수 성적 수료**<br>자체 데이터 CLIP 92% 분류 달성 및 GCP Cloud Run 배포 |
+---
 
-</details>
+### 🌟 2025
+* **`12월 - 01월` 🌤️ Weather Life MCP v3.7 (PlayMCP 공모전 출품작)**
+  > 실시간 기상 공공 API 및 카카오맵 장소 추천 서버
+  - FastMCP 표준 프로토콜 기반 30개 커스텀 툴 및 REST API 연동 완료
+  - 🛠️ `FastMCP` `REST API` `Kakao Maps API` `Railway`
+  - 🔗 [GitHub Repository](https://github.com/softkleenex/weather-life-mcp)
+
+* **`12월 - 01월` ⚽ DACON K리그 패스 좌표 예측 AI 경진대회**
+  > 마지막 패스의 x, y 도착 좌표 예측 ML 모델
+  - **DACON 상위 7% (121위 / 1,740팀)** 달성
+  - 절대 좌표 대신 변화량(Delta) 예측 재정의 및 Iterative Pseudo-Labeling 적용
+  - 🛠️ `CatBoost` `LightGBM` `Pseudo-Labeling`
+
+* **`11월` 🎙️ SilverLink - AI 복지 도우미 (KNU 해커톤 최우수상)**
+  > 디지털 소외 어르신을 위한 구어체 음성 대화형 복지 혜택 RAG 매칭 플랫폼
+  - **경북대학교 AI-conic 해커톤 최우수상 (2등, 상금 60만원)** 수상
+  - Google Gemini 2.5 Pro 기반 음성-음성 멀티모달 다이얼로그 시스템 구축
+  - 🛠️ `Gemini API` `Streamlit` `RAG` `STT/TTS`
+  - 🔗 [GitHub Repository](https://github.com/softkleenex/silverlink-hackathon-2025)
+
+* **`09월 - 10월` 📈 ML 앙상블 CTR & 시계열 분석**
+  > 토스 CTR 예측 및 Playground 시계열 데이터 분석
+  - Toss 광고 데이터 42개 피처 설계 및 LightGBM/XGBoost 앙상블 적용
+  - 금융 시계열 데이터의 누수를 원천 차단하는 Walk-Forward CV 기법 적용
+  - 🛠️ `PyTorch` `LightGBM` `XGBoost` `Walk-Forward CV`
+
+* **`09월` 🚗 DACON 자동차 뉴스 분류 AI**
+  > 텍스트 카테고리 고속 자동 분류 모델
+  - **자체 검증 데이터셋 정확도 100%** 달성
+  - GPT-4o-mini 모델 기반 고품질 Few-shot 프롬프트 엔지니어링 수행
+  - 🛠️ `GPT-4o-mini` `Few-shot` `Prompt Engineering`
+
+* **`06월 - 08월` 🍔 YUM:AI - 아동 한식 이미지 영양 분석 서비스 (SKT Fly AI)**
+  > OpenAI CLIP 기반 한식 이미지 인식 및 캐릭터 영양 관리 솔루션
+  - **SKT Fly AI 7기 최우수 성적 수료**
+  - 자체 수집 고품질 한식 데이터 CLIP 파인튜닝으로 이미지 인식 정확도 92% 달성
+  - 🛠️ `OpenAI CLIP` `FastAPI` `Docker` `GCP Cloud Run`
+
 
 ---
 
