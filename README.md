@@ -16,13 +16,13 @@
 저는 경북대학교 컴퓨터학부에서 글로벌소프트웨어를 전공하고 인공지능공학부를 부전공하며 이론적 기반을 견고히 다졌습니다. 단순히 모델을 학습시키는 것에 그치지 않고, **고성능 AI 모델과 실서비스 백엔드 파이프라인의 유기적인 연결**에 깊은 관심을 가지고 있습니다.
 
 - **실전 문제 해결 능력**: DACON K리그 패스 좌표 예측 **상위 7%**, **2026 PIIX Contest 대상(1등)**, **Kaggle Stanford RNA 3D 구조 예측 상위 48.2%** 등 다양한 고난도 챌린지에서 실력을 완벽히 검증했습니다.
-- **최신 AI 에이전트 설계**: MedGemma 의료 AI, AIMO 자율 수학 솔버, FastMCP 기반 날씨 비서, LLM-Driven Autonomous MLOps 파이프라인 등 업계 최신 LLM 에이전트 시스템 아키텍처를 선제적으로 구축해 왔습니다.
-- **기획 및 팀 협업 역량**: SKT Fly AI 7기 수료(최고 평가), KNU 해커톤 최우수상 등을 거치며 서비스 기획 단계부터 클라우드 배포 및 모니터링까지 전 과정을 주도적으로 이끌어내는 협업 중심의 인재입니다.
+- **최신 AI 에이전트 설계**: MedGemma 의료 AI, AIMO 자율 수학 솔버, FastMCP 기반 날씨 비서, LLM-Driven Autonomous MLOps 파이프라인 등 최신 LLM 및 에이전트 시스템 아키텍처를 선제적으로 설계하고 구현합니다.
+- **기획 및 팀 협업 역량**: 해커톤 최우수상 등을 거치며 서비스 기획 단계부터 클라우드 배포 및 모니터링까지 전 과정을 주도적으로 이끌어내는 협업 중심의 인재입니다.
 
 ---
 
 ## 📅 Chronological Project Timeline (연도별 프로젝트 타임라인)
-*전부 GitHub에 실제 오픈소스로 등재된 사실 관계가 완전히 검증된 15개의 인공지능 모델링 및 에이전트 시스템 구축 성과입니다.*
+*전부 GitHub에 실제 오픈소스로 등재된 사실 관계가 완전히 검증된 14개의 인공지능 모델링 및 에이전트 시스템 구축 성과입니다.*
 
 
 ### 🚀 2026
@@ -44,7 +44,6 @@
 * **`09월 - 10월`** 📊 [**Hull Tactical Market**](https://github.com/softkleenex/kaggle-hull-tactical-prediction) (Kaggle 금융 시계열 예측 Walk-Forward)
 * **`09월 - 10월`** 🌊 [**해양수산부 이상감지 AI 경진대회**](https://github.com/softkleenex/dacon-shipping-anomaly-detection) (DACON 상위 236위 센서 이상 감지)
 * **`08월 - 09월`** 🚗 [**자동차 뉴스 분류 AI 경진대회**](https://github.com/softkleenex/dacon-car-news-classification) (DACON 자체 검증 100% Prompt Eng)
-* **`06월 - 08월`** 🍔 [**YUM:AI - 아동 한식 이미지 영양 분석 서비스**](https://github.com/softkleenex/skt_fly_ai_teamproject) (SKT Fly AI 최고 평가 수료)
 
 
 ## 💎 Projects & Competitions Detailed (프로젝트 및 경진대회 상세 설명)
@@ -53,7 +52,7 @@
 ### 🚀 2026
 
 #### LLM-Driven Autonomous MLOps: Stanford RNA (Kaggle Competition)
-> **Kaggle RNA 3D 구조 예측 대회를 해결하는 완전 자율 AI 에이전트 파이프라인** (2026.05)
+> **Kaggle RNA 3D 구조 예측 대회를 해결하는 완전 자율 AI 에이전트 MLOps 파이프라인** (2026.05)
 - **주요 성과**:
   - **DACON/Kaggle 참가팀 중 최종 상위 48.2% (905위 / 1,877팀)** 달성.
   - LLM 에이전트 ensembler 기반의 **Autonomous MLOps Loop** 기획 및 구축.
@@ -109,7 +108,7 @@
 ---
 
 #### Weather Life MCP v3.7 (PlayMCP 공모전 출품작)
-> **기상 API 및 라이프스타일 지수를 연동 제공하는 FastMCP 표준 건강 날씨 에이전트** (2025.12 - 2026.01)
+> **기상 API 및 라이프스타일 지수를 연동 제공하는 FastMCP 표준 건강 날씨 에이전** (2025.12 - 2026.01)
 - **주요 성과**:
   - FastMCP 프레임워크 기반 **30개 커스텀 툴(Tool) 개발** 및 기상청/에어코리아/카카오맵 API 연동.
   - **FastMCP 표준 프로토콜 표준 규격 및 30개 커스텀 도구 구현 기준 자체 테스트 100% 만족 통과**.
@@ -200,17 +199,6 @@
 - **🛠️ Tech Stack**: `Python` `GPT-4o-mini` `Few-shot` `Prompt Engineering`
 - **🔗 Link**: [GitHub Repository](https://github.com/softkleenex/dacon-car-news-classification)
 
----
-
-#### YUM:AI - 아동 한식 이미지 영양 분석 서비스 (SKT Fly AI)
-> **OpenAI CLIP 기반 한식 이미지 인식 및 캐릭터 영양 관리 솔루션** (2025.06 - 2025.08)
-- **주요 성과**:
-  - **SKT Fly AI 7기 수료 (2개 프로젝트 모두 최고 평가 획득)**.
-  - 자체 수집 고품질 한식 데이터 1,500장+ 기반 CLIP 파인튜닝으로 **이미지 인식 정확도 92%** 달성.
-  - 모델 경량화 및 추론 서빙 파이프라인 최적화로 지연시간 50% 단축 (<200ms) 및 FastAPI 기반 MSA(4개 백엔드 서버) 설계.
-- **🛠️ Tech Stack**: `Python` `OpenAI CLIP` `FastAPI` `Docker` `GCP Cloud Run` `PostgreSQL`
-- **🔗 Link**: [GitHub Repository](https://github.com/softkleenex/skt_fly_ai_teamproject)
-
 
 ## 🛠️ Tech Stacks
 
@@ -252,9 +240,6 @@
 - **🎓 경북대학교 컴퓨터학부 (대구)**
   - 글로벌소프트웨어학과 주전공 / 인공지능공학부 부전공
   - 2021.03 ~ 2027.03 (졸업 예정)
-- **🚀 SKT Fly AI 7기**
-  - 딥러닝, NLP, Computer Vision AI 핵심 이론 이수 및 팀 프로젝트 리딩
-  - 2025.06 ~ 2025.08 (수료, 2개 프로젝트 모두 최고 평가 획득)
 - **💡 Solved.ac (백준 온라인 저지)**
   - 지속적인 알고리즘 및 문제해결 트레이닝 (**Gold 등급**)
   - 그래프 이론, 동적 계획법(DP), 고급 자료구조 문제 해결 위주 학습
