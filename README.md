@@ -21,61 +21,130 @@
 
 ---
 
-## 📅 Chronological AI & ML Timeline (연도별 성장 타임라인)
-*단 9개월 동안 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 압축적 성장 여정(High-Density Growth Timeline)입니다.*
+## 📅 Projects & Competitions (프로젝트 및 경진대회)
+*단 9개월 동안 10개 이상의 고성능 AI 모델링 및 에이전트 구축을 달성한 역순 연대기(Latest-First) 성장 여정입니다.*
 
-### 🚀 2026
-* **`02월` 🩺 MedGemma Sentinel (Kaggle Impact Challenge)**
-  > 의료진용 실시간 트리아지 및 환자용 의료기록 번역 듀얼 에이전트 시스템
-  - MedGemma 1.5-4B 기반 RAG 파이프라인 설계로 환각 현상(Hallucination) 원천 차단
-  - 🛠️ `MedGemma 1.5-4B` `FAISS` `SentenceTransformers` `RAG`
-  - 🔗 [GitHub Repository](https://github.com/softkleenex/medgemma-sentinel)
-
-* **`02월` 🧮 AIMO Prize 3 Solver (Kaggle Competition)**
-  > 국제 수학 올림피아드(IMO) 수준 주관식 문항 해결 자율 AI 시스템
-  - Qwen2.5-Math-7B 모델 기반 TIR 파이프라인 및 에러 자가 수정 루프 구현
-  - 🛠️ `Qwen2.5-Math-7B` `TIR Sandbox` `Self-Correction`
-  - 🔗 [GitHub Repository](https://github.com/softkleenex/AMO_PP3)
+### 🩺 MedGemma Sentinel (Kaggle Impact Challenge)
+> **의료진용 실시간 트리아지 및 환자용 의료기록 번역 듀얼 에이전트 시스템** (2026.02)
+- **내용**: 환자의 증상을 분석하여 의학적 중증도를 4단계로 분석(트리아지)하고, 동시에 어렵고 딱딱한 의학 용어로 기록된 진단서를 어르신이나 일반 환자가 읽기 쉬운 구어체로 자동 요약 및 번역해 주는 복합 에이전트.
+- **주요 성과**:
+  - MedGemma 1.5-4B 모델 기반의 **Dual-Agent Architecture** 설계.
+  - MedQuAD 의학 데이터셋과 FAISS 벡터 DB를 연계한 RAG 파이프라인으로 **환각 현상(Hallucination) 원천 차단**.
+  - 대학원 수준(Grade 15.3)의 의학 문서를 대중적 수준(Grade 7.2)의 쉬운 단어로 번역 성공.
+- **🛠️ Tech Stack**: `Python` `MedGemma 1.5-4B` `FAISS` `SentenceTransformers` `RAG`
+- **🔗 Link**: [GitHub Repository](https://github.com/softkleenex/medgemma-sentinel)
 
 ---
 
-### 🌟 2025
-* **`12월 - 01월` 🌤️ Weather Life MCP v3.7 (PlayMCP 공모전 출품작)**
-  > 실시간 기상 공공 API 및 카카오맵 장소 추천 서버
-  - FastMCP 표준 프로토콜 기반 30개 커스텀 툴 및 REST API 연동 완료
-  - 🛠️ `FastMCP` `REST API` `Kakao Maps API` `Railway`
-  - 🔗 [GitHub Repository](https://github.com/softkleenex/weather-life-mcp)
+### 🧮 AIMO Prize 3 Solver (Kaggle Competition)
+> **국제 수학 올림피아드(IMO) 수준의 복잡한 주관식 문제를 해결하는 자율 AI 시스템** (2026.02)
+- **내용**: 텍스트 형태의 수학 문제를 LLM이 읽고, 정밀한 계산을 수행하기 위한 Python 코드를 스스로 작성 및 실행하여 정답을 추출하는 자율적인 수학 문제 해결 알고리즘.
+- **주요 성과**:
+  - Qwen2.5-Math-7B 모델 기반의 **TIR (Tool-Integrated Reasoning) 파이프라인** 독자 설계.
+  - 실행 중 발생하는 에러를 캡처하여 스스로 프롬프트를 재구성 및 디버깅하는 **Self-Correction Logic (자가 수정 루프)** 구현.
+  - Kaggle Inference Server 환경에 맞추어 예외 및 타임아웃 처리를 포함한 **Thread-Safe 샌드박스** 구축.
+- **🛠️ Tech Stack**: `Python` `Qwen2.5-Math-7B` `TIR Sandbox` `Self-Correction`
+- **🔗 Link**: [GitHub Repository](https://github.com/softkleenex/AMO_PP3)
 
-* **`12월 - 01월` ⚽ DACON K리그 패스 좌표 예측 AI 경진대회**
-  > 마지막 패스의 x, y 도착 좌표 예측 ML 모델
-  - **DACON 상위 7% (121위 / 1,740팀)** 달성
-  - 절대 좌표 대신 변화량(Delta) 예측 재정의 및 Iterative Pseudo-Labeling 적용
-  - 🛠️ `CatBoost` `LightGBM` `Pseudo-Labeling`
+---
 
-* **`11월` 🎙️ SilverLink - AI 복지 도우미 (KNU 해커톤 최우수상)**
-  > 디지털 소외 어르신을 위한 구어체 음성 대화형 복지 혜택 RAG 매칭 플랫폼
-  - **경북대학교 AI-conic 해커톤 최우수상 (2등, 상금 60만원)** 수상
-  - Google Gemini 2.5 Pro 기반 음성-음성 멀티모달 다이얼로그 시스템 구축
-  - 🛠️ `Gemini API` `Streamlit` `RAG` `STT/TTS`
-  - 🔗 [GitHub Repository](https://github.com/softkleenex/silverlink-hackathon-2025)
+### 💔 심장 질환 예측 (Kaggle Playground S6E2)
+> **정형 데이터 기반의 심장 질환 발생 여부 예측 이진 분류 모델** (2026.02)
+- **내용**: 환자의 건강 지표 정형 데이터를 기반으로 심장 질환 유무를 고정밀 예측하는 이진 분류 파이프라인.
+- **주요 성과**:
+  - CatBoost, LightGBM, XGBoost 모델 학습 및 하이퍼파라미터 최적화.
+  - 예측 성능 극대화를 위해 Hill Climbing 기반의 가중 앙상블(Weighted Ensemble) 기법 적용.
+- **🛠️ Tech Stack**: `Python` `CatBoost` `LightGBM` `XGBoost` `Hill Climbing`
 
-* **`09월 - 10월` 📈 ML 앙상블 CTR & 시계열 분석**
-  > 토스 CTR 예측 및 Playground 시계열 데이터 분석
-  - Toss 광고 데이터 42개 피처 설계 및 LightGBM/XGBoost 앙상블 적용
-  - 금융 시계열 데이터의 누수를 원천 차단하는 Walk-Forward CV 기법 적용
-  - 🛠️ `PyTorch` `LightGBM` `XGBoost` `Walk-Forward CV`
+---
 
-* **`09월` 🚗 DACON 자동차 뉴스 분류 AI**
-  > 텍스트 카테고리 고속 자동 분류 모델
-  - **자체 검증 데이터셋 정확도 100%** 달성
-  - GPT-4o-mini 모델 기반 고품질 Few-shot 프롬프트 엔지니어링 수행
-  - 🛠️ `GPT-4o-mini` `Few-shot` `Prompt Engineering`
+### 🌤️ Weather Life MCP v3.7 (PlayMCP 공모전 출품작)
+> **공공 API 데이터 및 과학적 건강 지수를 통합 제공하는 차세대 날씨 비서 에이전트 서버** (2025.12 - 2026.01)
+- **내용**: 단순한 온습도 조회를 넘어, 세차·빨래·러닝 등 30개 일상 지수를 산출하고 사용자의 현 위치 및 상황(TPO)에 맞추어 실시간으로 맛집, 코스, 길찾기를 자동 추천하는 통합 에이전트.
+- **주요 성과**:
+  - FastMCP 프레임워크 기반 **30개 커스텀 툴(Tool) 개발** 및 기상청/카카오맵 API 연동.
+  - **FastMCP 표준 프로토콜 규격 및 30개 커스텀 도구 구현 기준 자체 테스트 100% 통과**.
+  - MIT/Yale 등 과학 논문 데이터에 기반하여 체감 온도, 열사병 지수 등 신뢰성 있는 건강 지수 산출 공식 구현.
+  - 사용자의 위치(TPO)에 기반하여 카카오맵 API를 연계한 맛집, 추천 장소, 코스 링크의 완전 자동화 맵핑 기능 탑재.
+- **🛠️ Tech Stack**: `Python` `FastMCP` `REST API` `Kakao Maps API` `Railway`
+- **🔗 Link**: [GitHub Repository](https://github.com/softkleenex/weather-life-mcp)
 
-* **`06월 - 08월` 🍔 YUM:AI - 아동 한식 이미지 영양 분석 서비스 (SKT Fly AI)**
-  > OpenAI CLIP 기반 한식 이미지 인식 및 캐릭터 영양 관리 솔루션
-  - **SKT Fly AI 7기 최우수 성적 수료**
-  - 자체 수집 고품질 한식 데이터 CLIP 파인튜닝으로 이미지 인식 정확도 92% 달성
-  - 🛠️ `OpenAI CLIP` `FastAPI` `Docker` `GCP Cloud Run`
+---
+
+### ⚽ K리그 패스 좌표 예측 AI 경진대회 (DACON)
+> **마지막 패스의 x, y 도착 좌표 예측 ML 모델** (2025.12 - 2026.01)
+- **내용**: K리그 축구 경기 데이터를 활용하여 선수의 마지막 패스가 도달할 x, y 좌표를 정밀 예측하는 리그 분석용 모델.
+- **주요 성과**:
+  - **DACON 상위 7% (121위 / 1,740팀)** 달성.
+  - 절대 좌표 대신 이전 위치 대비 변화량(Delta)을 예측하도록 문제를 재정의하여 모델 일반화 성능 극대화.
+  - Iterative Pseudo-Labeling 준지도 학습 기법을 도입하여 테스트 데이터 예측의 정확도 고도화.
+- **🛠️ Tech Stack**: `Python` `CatBoost` `LightGBM` `XGBoost` `Pseudo-Labeling`
+- **🔗 Link**: [GitHub Repository](https://github.com/softkleenex/k-league-pass-prediction-top7pct)
+
+---
+
+### 🧬 유전체 변이 감지 AI 경진대회 (DACON)
+> **유전체 서열 데이터 분석을 통한 변이 여부 감지 딥러닝 모델** (2025.12)
+- **내용**: DNA 서열 데이터를 분석하여 변이가 일어난 부분을 고속 감지 및 분류하는 생물정보학(Bioinformatics) AI 파이프라인.
+- **주요 성과**:
+  - 단독 참여로 **최종 101위** 기록.
+  - 극심한 클래스 불균형 제어를 위해 대조 학습(Contrastive Learning) 도입 및 PyTorch 기반 커스텀 손실 함수 실험.
+- **🛠️ Tech Stack**: `Python` `PyTorch` `Contrastive Learning` `Custom Loss Function`
+
+---
+
+### 🎙️ SilverLink - AI 복지 도우미 (KNU 해커톤 최우수상)
+> **디지털 소외 어르신을 위한 구어체 음성 대화형 복지 혜택 RAG 매칭 플랫폼** (2025.11)
+- **내용**: 모바일 인터페이스 조작에 취약한 고령층을 위해 복잡한 조건(소득, 가구원 등)을 음성 대화만으로 추출하고, 해당 어르신이 혜택을 받을 수 있는 정부 복지 혜택을 매칭 및 음성으로 안내해 주는 복지 배달 비서.
+- **주요 성과**:
+  - **경북대학교 AI-conic 해커톤 최우수상 (2등, 상금 60만원)** 수상.
+  - Google Gemini 2.5 Pro를 활용하여 음성과 텍스트가 양방향으로 연동되는 **멀티모달 대화 시스템** 기획 및 구축.
+  - 정부 복지 가이드라인 데이터를 RAG로 연계하여 오정보(할루시네이션)를 방지하고 추천 적합도 산정 로직 구현.
+- **🛠️ Tech Stack**: `Python` `Streamlit` `Google Gemini API` `FAISS` `RAG` `STT/TTS`
+- **🔗 Link**: [GitHub Repository](https://github.com/softkleenex/silverlink-hackathon-2025)
+
+---
+
+### 📈 토스 광고 CTR 예측 AI 경진대회 (DACON)
+> **사용자 피처 및 광고 데이터를 활용한 클릭률(CTR) 예측 ML 모델** (2025.10)
+- **내용**: 금융 서비스 플랫폼 토스(Toss)의 대규모 정형 데이터를 기반으로 사용자별 광고 클릭 적합도(CTR)를 예측하는 타겟 마케팅 모델.
+- **주요 성과**:
+  - 유저-광고 피처 간 상호작용 피처 등 42개의 고효율 파생변수 도출.
+  - LightGBM, XGBoost 앙상블 기법 및 오버피팅을 제어하는 고정밀 하이퍼파라미터 튜닝 적용.
+- **🛠️ Tech Stack**: `Python` `LightGBM` `XGBoost` `Feature Engineering`
+
+---
+
+### 📊 Hull Tactical Market (금융 시계열 예측)
+> **금융 시장 데이터 분석을 통한 시계열 수익률 예측 모델** (2025.10)
+- **내용**: 거시 경제 및 시장 기술 지표 데이터를 활용하여 향후 시장 수익률의 추세를 예측하는 계량금융(Quantitative) 모델.
+- **주요 성과**:
+  - 금융 시계열 데이터의 치명적인 데이터 누수(Data Leakage)를 원천 차단하는 Walk-Forward CV(교차 검증) 전략 채택 및 안정적 추론 확인.
+- **🛠️ Tech Stack**: `Python` `Scikit-Learn` `Walk-Forward CV` `Time-Series`
+
+---
+
+### 🚗 자동차 뉴스 분류 AI 경진대회 (DACON)
+> **텍스트 카테고리 고속 자동 분류 모델** (2025.09)
+- **내용**: 뉴스 기사 텍스트를 기계적으로 분석하여 해당 기사가 어떤 자동차 분야에 속하는지 초고속으로 자동 분류하는 모델.
+- **주요 성과**:
+  - **자체 검증 데이터셋 정확도 100%** 달성.
+  - GPT-4o-mini 모델 기반 고품질 Few-shot 프롬프트 엔지니어링 및 텍스트 데이터 정제 수행.
+- **🛠️ Tech Stack**: `Python` `GPT-4o-mini` `Few-shot` `Prompt Engineering`
+
+---
+
+### 🍔 YUM:AI - 아동 한식 이미지 영양 분석 서비스 (SKT Fly AI)
+> **OpenAI CLIP 기반 한식 이미지 인식 및 캐릭터 영양 관리 솔루션** (2025.06 - 2025.08)
+- **내용**: 아동이 먹은 음식 사진을 업로드하면 영양성분을 정밀 분석하여 아동 캐릭터 성장과 연계해 주는 식습관 개선 영양 솔루션.
+- **주요 성과**:
+  - **SKT Fly AI 7기 수료 (2개 프로젝트 모두 최고 평가 획득)**.
+  - 자체 수집 고품질 한식 데이터 1,500장+ 기반 CLIP 파인튜닝으로 **이미지 인식 정확도 92%** 달성.
+  - 모델 경량화 및 추론 서빙 파이프라인 최적화로 지연시간 50% 단축 (<200ms) 및 FastAPI 기반 MSA(4개 백엔드 서버) 설계.
+- **🛠️ Tech Stack**: `Python` `OpenAI CLIP` `FastAPI` `Docker` `GCP Cloud Run` `PostgreSQL`
+- **🔗 Link**: [GitHub Repository](https://github.com/softkleenex/YUM-AI)
+
+---
 
 
 ---
@@ -113,64 +182,6 @@
   <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 </p>
-
----
-
-## 💎 Core Project Highlights
-
-### 1. 🩺 MedGemma Sentinel (Kaggle Impact Challenge)
-> **의료진용 고정밀 트리아지 및 환자용 의료 기록 번역 듀얼 에이전트 시스템**
-- **내용**: 환자의 증상을 받아 의학적 중증도를 4단계로 분석(트리아지)하고, 동시에 어렵고 딱딱한 의학 용어로 기록된 진단서를 어르신이나 일반 환자가 읽기 쉬운 구어체로 자동 요약 및 번역해 주는 복합 에이전트.
-- **주요 성과**:
-  - MedGemma 1.5-4B 모델 기반의 **Dual-Agent Architecture** 설계.
-  - MedQuAD 의학 데이터셋과 FAISS 벡터 DB를 연계한 RAG 파이프라인으로 **환각 현상(Hallucination) 완벽 제어**.
-  - 대학원 수준(Grade 15.3)의 의학 문서를 대중적 수준(Grade 7.2)의 쉬운 단어로 번역 성공.
-- **Tech Stack**: `Python`, `MedGemma 1.5-4B`, `FAISS`, `SentenceTransformers`, `RAG`
-- **👉 [GitHub 저장소 보기](https://github.com/softkleenex/medgemma-sentinel)**
-
-### 2. 🧮 AIMO Prize 3 Solver (Kaggle Competition)
-> **국제 수학 올림피아드(IMO) 수준의 복잡한 주관식 문제를 해결하는 자율 AI 시스템**
-- **내용**: 텍스트 형태의 수학 문제를 LLM이 읽고, 정밀한 계산을 수행하기 위한 Python 코드를 스스로 작성 및 실행하여 정답을 추출하는 자율적인 수학 문제 해결 알고리즘.
-- **주요 성과**:
-  - Qwen2.5-Math-7B 모델 기반의 **TIR (Tool-Integrated Reasoning) 파이프라인** 독자 설계.
-  - 실행 중 발생하는 에러를 캡처하여 스스로 프롬프트를 재구성 및 디버깅하는 **Self-Correction Logic (자가 수정 루프)** 구현.
-  - Kaggle Inference Server 환경에 맞추어 예외 및 타임아웃 처리를 포함한 **Thread-Safe 샌드박스** 구축.
-- **Tech Stack**: `Python`, `Qwen2.5-Math-7B`, `TIR (Tool-Integrated Reasoning)`, `LLM Agent`
-- **👉 [GitHub 저장소 보기](https://github.com/softkleenex/AMO_PP3)**
-
-### 3. 🌤️ Weather Life MCP v3.7 (PlayMCP 공모전 출품작)
-> **공공 API 데이터 및 과학적 건강 지수를 통합 제공하는 차세대 날씨 비서 에이전트 서버**
-- **내용**: 단순한 온습도 조회를 넘어, 세차·빨래·러닝 등 30개 일상 지수를 산출하고 사용자의 현 위치 및 상황(TPO)에 맞추어 실시간으로 맛집, 코스, 길찾기를 자동 추천하는 통합 에이전트.
-- **주요 성과**:
-  - FastMCP 프레임워크 기반 **30개 커스텀 툴(Tool) 개발** 및 기상청/카카오맵 API 연동.
-  - **FastMCP 표준 프로토콜 규격 및 30개 커스텀 도구 구현 기준 자체 테스트 100% 통과**.
-  - MIT/Yale 등 과학 논문 데이터에 기반하여 체감 온도, 열사병 지수 등 신뢰성 있는 건강 지수 산출 공식 구현.
-  - 사용자의 위치(TPO)에 기반하여 카카오맵 API를 연계한 맛집, 추천 장소, 코스 링크의 완전 자동화 맵핑 기능 탑재.
-- **Tech Stack**: `Python`, `FastMCP`, `Railway`, `REST API`, `Kakao Maps API`
-- **👉 [GitHub 저장소 보기](https://github.com/softkleenex/weather-life-mcp)**
-
-### 4. 🏆 SilverLink (경북대 AI-conic 해커톤 최우수상)
-> **디지털 소외계층 어르신을 위한 구어체 기반 멀티모달 복지 혜택 추천 플랫폼**
-- **내용**: 모바일 인터페이스 조작에 취약한 고령층을 위해 복잡한 조건(소득, 가구원 등)을 음성 대화만으로 추출하고, 해당 어르신이 혜택을 받을 수 있는 정부 복지 혜택을 매칭 및 음성으로 안내해 주는 복지 배달 비서.
-- **주요 성과**:
-  - Google Gemini 2.5 Pro를 활용하여 음성과 텍스트가 양방향으로 연동되는 **멀티모달 대화 시스템** 기획 및 구축.
-  - 정부 복지 가이드라인 데이터를 RAG로 연계하여 오정보(할루시네이션)를 방지하고 추천 적합도 산정 로직 구현.
-  - **경북대학교 AI-conic 해커톤 최우수상 (2등, 상금 60만원) 수상**.
-- **Tech Stack**: `Python`, `Streamlit`, `Google Gemini API`, `RAG`, `STT/TTS`
-- **👉 [GitHub 저장소 보기](https://github.com/softkleenex/silverlink-hackathon-2025)**
-
----
-
-## 🏆 Kaggle & DACON Competitions
-
-| 대회명 | 플랫폼 | 기간 | 역할 및 성과 | 핵심 방법론 |
-|---|---|---|---|---|
-| **K리그 패스 좌표 예측** | DACON | 25.12-26.01 | **상위 7% (121위 / 1,740팀)** | 절대 좌표 대신 변화량(Delta) 예측으로 문제 재정의, Iterative Pseudo-Labeling |
-| **자동차 뉴스 분류 AI** | DACON | 25.09 | **자체 검증 정확도 100%** | GPT-4o-mini 모델에 대한 고도화된 퓨샷(Few-shot) 프롬프트 엔지니어링 및 자체 데이터셋 검증 |
-| **PlayMCP 개발 공모전** | GitHub | 26.01 | **Weather MCP 출품** | **30개 커스텀 툴 및 API 통합**, Weather MCP 개발 (자체 규격 테스트 100% 통과) |
-| **유전체 변이 감지 AI** | DACON | 25.12 | 단독 참여 (101위) | 데이터 불균형 해결을 위한 대조 학습(Contrastive Learning) 및 PyTorch 커스텀 손실 함수 설계 |
-| **토스 광고 CTR 예측** | DACON | 25.10 | 모델링 담당 | LightGBM/XGBoost 앙상블 및 유저-광고 피처 상호작용 포함 42개 파생변수 생성 |
-| **Hull Tactical Market** | Kaggle | 25.10 | 시계열 모델링 | 금융 시계열 데이터의 데이터 누수(Data Leakage)를 원천 차단하는 Walk-Forward CV 기법 적용 |
 
 ---
 
