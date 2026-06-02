@@ -15,7 +15,7 @@
 
 저는 경북대학교 컴퓨터학부에서 글로벌소프트웨어를 전공하고 인공지능공학부를 부전공하며 이론적 기반을 견고히 다졌습니다. 단순히 모델을 학습시키는 것에 그치지 않고, **고성능 AI 모델과 실서비스 백엔드 파이프라인의 유기적인 연결**에 깊은 관심을 가지고 있습니다.
 
-- **실전 문제 해결 능력**: DACON 패스 좌표 예측 대회 **상위 7% (121위)**, **PlayMCP 공모전 출품 (자체 규격 테스트 100% 만족)** 등 다수의 경진대회와 프로젝트에서 실력을 검증해 왔습니다.
+- **실전 문제 해결 능력**: DACON 패스 좌표 예측 대회 **상위 7% (121위)**, **자체 검증 기준 100% 성능의 뉴스 분류 에이전트 구축** 등 다수의 경진대회와 프로젝트에서 실력을 검증해 왔습니다.
 - **최신 AI 에이전트 설계**: MedGemma 의료 AI, AIMO 자율 수학 솔버(Tool-Integrated Reasoning), FastMCP 기반 생활 지수 추천 서버 등 최신 LLM 및 에이전트 시스템 아키텍처를 선제적으로 설계하고 구현합니다.
 - **기획 및 팀 협업 역량**: SKT Fly AI, KNU 해커톤 최우수상 등을 거치며 서비스 기획 단계부터 클라우드 배포 및 모니터링까지 전 과정을 주도적으로 이끌어내는 협업 중심의 인재입니다.
 
@@ -33,7 +33,7 @@ timeline
     2025.06 - 2025.08 : AI 기술 내재화 & 협업 경험
                       : 🚀 SKT Fly AI 7기 최우수 수료
                       : 🍔 YUM:AI - CLIP 기반 한식 이미지 인식 & GCP 영양 분석 서비스 개발
-                      : 🚗 DACON 자동차 뉴스 분류 AI 경진대회 100% 정확도 달성
+                      : 🚗 DACON 자동차 뉴스 분류 AI 경진대회 참가 (자체 검증 기준 정확도 100% 달성)
     2025.09 - 2025.10 : Tabular & 시계열 모델링 확장
                       : 📈 DACON 토스 광고 CTR 예측 (LightGBM/XGBoost 42개 Feature 설계)
                       : 🚨 DACON 해양수산부 이상감지 (센서 파생 변수 149개 설계)
@@ -104,7 +104,7 @@ timeline
 - **주요 성과**:
   - Qwen2.5-Math-7B 모델 기반의 **TIR (Tool-Integrated Reasoning) 파이프라인** 독자 설계.
   - 실행 중 발생하는 에러를 캡처하여 스스로 프롬프트를 재구성 및 디버깅하는 **Self-Correction Logic (자가 수정 루프)** 구현.
-  - Kaggle Inference Server 환경에 맞추어 예외 및 타임아웃 처리를 포함한 **Thread-Safe 샌드박스** 구축.
+  - Kaggle Inference Server 환경에 맞추어 예외 및 타메아웃 처리를 포함한 **Thread-Safe 샌드박스** 구축.
 - **Tech Stack**: `Python`, `Qwen2.5-Math-7B`, `TIR (Tool-Integrated Reasoning)`, `LLM Agent`
 - **👉 [GitHub 저장소 보기](https://github.com/softkleenex/AMO_PP3)**
 
@@ -136,7 +136,7 @@ timeline
 | 대회명 | 플랫폼 | 기간 | 역할 및 성과 | 핵심 방법론 |
 |---|---|---|---|---|
 | **K리그 패스 좌표 예측** | DACON | 25.12-26.01 | **상위 7% (121위 / 1,740팀)** | 절대 좌표 대신 변화량(Delta) 예측으로 문제 재정의, Iterative Pseudo-Labeling |
-| **자동차 뉴스 분류 AI** | DACON | 25.09 | **정확도 100% 달성** | GPT-4o-mini 소형 모델에 대한 고도화된 퓨샷(Few-shot) 프롬프트 엔지니어링 |
+| **자동차 뉴스 분류 AI** | DACON | 25.09 | **자체 검증 정확도 100%** | GPT-4o-mini 모델에 대한 고도화된 퓨샷(Few-shot) 프롬프트 엔지니어링 및 자체 데이터셋 검증 |
 | **PlayMCP 개발 공모전** | GitHub | 26.01 | **Weather MCP 출품** | **30개 커스텀 툴 및 API 통합**, Weather MCP 개발 (자체 규격 테스트 100% 통과) |
 | **유전체 변이 감지 AI** | DACON | 25.12 | 단독 참여 (101위) | 데이터 불균형 해결을 위한 대조 학습(Contrastive Learning) 및 PyTorch 커스텀 손실 함수 설계 |
 | **토스 광고 CTR 예측** | DACON | 25.10 | 모델링 담당 | LightGBM/XGBoost 앙상블 및 유저-광고 피처 상호작용 포함 42개 파생변수 생성 |
