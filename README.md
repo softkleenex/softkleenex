@@ -22,49 +22,23 @@
 ---
 
 ## 📅 Chronological AI & Engineering Roadmap
-*시간의 흐름(화살표)을 따라 각 구간별로 진행한 AI/ML 프로젝트 및 주요 성과를 한눈에 볼 수 있는 로드맵입니다.*
+*중앙 연대기 축을 기준으로, 각 프로젝트별 실제 진행 기간을 표시한 **수평형 간트 차트(Gantt-Roadmap)**입니다. 화살표(바)들이 위아래에 겹치지 않게 배치되어 각 프로젝트의 일정과 스택을 직관적으로 보여줍니다.*
 
 ```mermaid
-flowchart TD
-    %% Direction
-    direction TB
-
-    %% Styles & Colors
-    classDef timeNode fill:#0f172a,stroke:#1e293b,stroke-width:2px,color:#ffffff,font-size:12px,font-weight:bold;
-    classDef projNode fill:#ffffff,stroke:#cbd5e1,stroke-width:1.2px,color:#334155,font-size:11px;
-    classDef awardNode fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#1e3a8a,font-size:11px,font-weight:bold;
-    classDef startEnd fill:#f8fafc,stroke:#475569,stroke-width:1.5px,color:#0f172a,font-size:11px,font-weight:bold;
-
-    %% Chronological Arrow (Central Timeline)
-    Start([🚀 AI 여정 시작]) ===> T1[2025.06 - 08<br>기술 내재화 & 협업]
-    T1 ===> T2[2025.09 - 10<br>ML 모델링 확장]
-    T2 ===> T3[2025.11<br>멀티모달 융합]
-    T3 ===> T4[2025.12 - 2026.01<br>에이전트 & 실전 ML]
-    T4 ===> T5[2026.02<br>LLM Reasoning]
-    T5 ===> End([🏆 현재])
-
-    class T1,T2,T3,T4,T5 timeNode;
-    class Start,End startEnd;
-
-    %% 2025.06 - 08 Projects
-    T1 --- P1("🍔 <b>YUM:AI 아동 음식 추천 시스템</b><br>- OpenAI CLIP 기반 한식 30종 이미지 파인튜닝 (정확도 92%)<br>- FastAPI & GCP Cloud Run 마이크로서비스 배포<br>⭐ <b>SKT Fly AI 7기 최우수 성적 수료</b>")
-    class P1 projNode;
-
-    %% 2025.09 - 10 Projects
-    T2 --- P2("🚗 <b>DACON 자동차 뉴스 분류 AI</b><br>- GPT-4o-mini 퓨샷 프롬프트 자체 검증 100%<br><br>📈 <b>DACON 토스 CTR / 해양 이상 감지</b><br>- 고효율 파생변수 (최대 149개) 및 앙상블 모델링<br><br>📊 <b>Kaggle Hull Tactical Market</b><br>- 금융 시계열 누수 차단 Walk-Forward CV 구축")
-    class P2 projNode;
-
-    %% 2025.11 Projects
-    T3 --- P5("🎙️ <b>SilverLink - AI 복지 도우미</b><br>- Gemini 2.5 Pro 기반 어르신 전용 음성 멀티모달 대화 시스템<br>- 복지 문서 RAG 검색 및 적합도 스코어 매칭 알고리즘 설계<br>🏆 <b>경북대 AI-conic 해커톤 최우수상 (2등) 수상</b>")
-    class P5 awardNode;
-
-    %% 2025.12 - 2026.01 Projects
-    T4 --- P6("⚽ <b>DACON K리그 패스 좌표 예측</b><br>- 절대 좌표 대신 변화량(Delta) 예측 기법 도입<br>- 준지도 Pseudo-Labeling 구현, <b>상위 7% (121위)</b> 달성<br><br>🌤️ <b>Weather Life MCP v3.7 개발</b><br>- FastMCP 기반 30개 커스텀 툴 및 API 통합<br>- 카카오맵 경로 안내 연동, <b>PlayMCP 공모전 출품</b>")
-    class P6 projNode;
-
-    %% 2026.02 Projects
-    T5 --- P8("🧮 <b>Kaggle AIMO Solver</b><br>- Qwen2.5-Math 기반 자율 실행 & Self-Correction 솔버 개발<br><br>🩺 <b>MedGemma Sentinel</b><br>- MedGemma 1.5-4B 기반 Dual-Agent 의료 RAG 구축<br><br>💔 <b>Kaggle Playground S6E2 심장 질환 예측</b><br>- Hill Climbing 앙상블 기법 모델링 적용")
-    class P8 projNode;
+gantt
+    title softkleenex (이상재) AI/ML & Engineering Gantt-Roadmap
+    dateFormat  YYYY-MM
+    axisFormat  %Y.%m
+    
+    section 🧠 Above Axis (LLM & Multimodal AI)
+    🍔 YUM:AI - 아동 한식 이미지 푸드 추천 (CLIP, GCP)   :active, yum, 2025-06, 2025-08
+    🎙️ SilverLink - Gemini 음성 멀티모달 RAG (🏆 해커톤 2등) :active, silver, 2025-11, 2025-11
+    🩺 MedGemma Sentinel & Qwen-Math 자율 에이전트 :active, agent, 2026-02, 2026-02
+    
+    section ⚽ Below Axis (ML & Data Science)
+    🚗 DACON 자동차 뉴스 분류 (자체 검증 100%)       :active, news, 2025-09, 2025-09
+    🌤️ Weather Life MCP v3.7 개발 (공모전 출품작)       :active, weather, 2025-12, 2026-01
+    ⚽ DACON K리그 패스 좌표 예측 (준지도학습, Top 7%)   :active, league, 2025-12, 2026-01
 ```
 
 ---
