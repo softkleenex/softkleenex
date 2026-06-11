@@ -43,7 +43,7 @@
 * **`09월 - 10월`** 📈 [**토스 광고 CTR 예측 AI 경진대회**](https://github.com/softkleenex/dacon-toss-ctr-prediction) (DACON LightGBM + XGBoost)
 * **`09월 - 10월`** 📊 [**Hull Tactical Market**](https://github.com/softkleenex/kaggle-hull-tactical-prediction) (Kaggle 금융 시계열 예측 Walk-Forward)
 * **`09월 - 10월`** 🌊 [**해양수산부 이상감지 AI 경진대회**](https://github.com/softkleenex/dacon-shipping-anomaly-detection) (DACON 상위 236위 센서 이상 감지)
-* **`08월 - 09월`** 🚗 [**자동차 뉴스 분류 AI 경진대회**](https://github.com/softkleenex/dacon-car-news-classification) (DACON 자체 검증 100% Prompt Eng)
+* **`08월 - 09월`** 🚗 [**자동차 뉴스 분류 AI 경진대회**](https://github.com/softkleenex/dacon-car-news-classification) (DACON Prompt Engineering, 제출 최고 0.856)
 
 
 ## 💎 Projects & Competitions Detailed (프로젝트 및 경진대회 상세 설명)
@@ -194,9 +194,10 @@
 #### 자동차 뉴스 분류 AI 경진대회 (DACON)
 > **텍스트 데이터를 카테고리별로 고속 자동 분류하는 프롬프트 엔지니어링** (2025.08 - 2025.09)
 - **주요 성과**:
-  - **자체 검증 데이터셋 정확도 100%** 달성.
-  - GPT-4o-mini 모델 기반 고품질 Few-shot 프롬프트 엔지니어링 및 데이터 전처리 자동화 구축.
-- **🛠️ Tech Stack**: `Python` `GPT-4o-mini` `Few-shot` `Prompt Engineering`
+  - DACON 자동차 관련 뉴스 이진 분류 경진대회에서 **실제 제출 최고 점수 0.856** 기록.
+  - GPT-4o-mini 평가 환경과 `0.9 * Accuracy + 0.1 * Length Score` 공식을 분석하여 짧은 한국어 조건문 프롬프트를 체계적으로 실험.
+  - 제공 샘플 46개 기준 **로컬 검증 100%**를 달성했으며, 합성 데이터 30개로 과적합 가능성까지 별도 점검.
+- **🛠️ Tech Stack**: `Python` `GPT-4o-mini` `Prompt Engineering` `Evaluation Design`
 - **🔗 Link**: [GitHub Repository](https://github.com/softkleenex/dacon-car-news-classification)
 
 
