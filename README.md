@@ -17,6 +17,7 @@ LLM, RAG, Agentic AI, 데이터 분석, 백엔드 API를 연결해 실제 사용
 - **Evaluation-Driven Development**: 프롬프트 실험, 테스트셋 구성, 오분류/오답 패턴 분석
 - **Data & ML Competitions**: DACON/Kaggle 기반 분류, 예측, 이상탐지, 과학 ML 실험
 - **Backend & API**: FastAPI, REST API, Docker, cloud deployment, DB/API 연동
+- **Product Prototyping**: 공모전/리빙랩 기반 문제 정의, MVP, 발표자료, 실서비스 흐름 정리
 - **Collaboration**: SKT FLY AI, 해커톤, 학교 팀 프로젝트 기반 기획-개발 협업 경험
 
 ---
@@ -33,6 +34,14 @@ LLM, RAG, Agentic AI, 데이터 분석, 백엔드 API를 연결해 실제 사용
 | [DACON Car News Classification](https://github.com/softkleenex/dacon-car-news-classification) | GPT-4o-mini 프롬프트만으로 자동차 뉴스 여부를 분류하고, 프롬프트별 정확도와 오분류 패턴을 비교한 평가 프로젝트 | Prompt Engineering, Evaluation, Test Set |
 | [SilverLink](https://github.com/softkleenex/silverlink-hackathon-2025) | 어르신의 음성/텍스트 입력을 바탕으로 복지 혜택을 추천하는 AI 복지 도우미. AI-conic 해커톤 최우수상 수상 | Gemini, Streamlit, STT/TTS, Validation |
 
+### Product / Service Prototypes
+
+| Project | Summary | Keywords |
+|---|---|---|
+| [MDGA / LivingLab 2026](https://github.com/softkleenex/livinglab_2026) | 농림/스마트팜 데이터를 결합해 합성 데이터와 AI 인사이트를 제공하는 리빙랩 프로젝트. 기획, MVP, 발표, 수료/선정 자료까지 정리 | FastAPI, React, PostgreSQL, Gemini, Product |
+| [Barrier-Free AI Travel Orchestrator](https://github.com/softkleenex/tour_prompton) | 보행 약자를 위한 무장애 여행 코스 추천 프로토타입. 날씨 위험 감지, 무장애 API/RAG 검증, 멀티에이전트 오케스트레이션 설계 | LangGraph, RAG, OpenAPI, Multi-Agent |
+| [PIIX Contest Award - Cloud-I](https://github.com/softkleenex/piix_contest_award) | 감정 회고 무드등 제품 콘셉트로 2026 PIIX Contest 대상 수상. 생성형 AI 이미지 반복 실험과 제품 설명 정리 | Generative AI, Product Design, Prompting |
+
 ### ML / Data / Backend
 
 | Project | Summary | Keywords |
@@ -43,13 +52,25 @@ LLM, RAG, Agentic AI, 데이터 분석, 백엔드 API를 연결해 실제 사용
 | [Toss CTR Prediction](https://github.com/softkleenex/dacon-toss-ctr-prediction) | 광고 클릭률 예측을 위한 feature engineering 및 tree-based ensemble 실험 | CTR, LightGBM, XGBoost |
 | [LLM Dashboard API](https://github.com/softkleenex/llm-dashboard-api) | LLM 서비스의 사용자, 프로젝트, 모델, 세션, 로그 관리를 위한 FastAPI 백엔드 | FastAPI, Oracle DB, Docker |
 
+### Additional Case Studies
+
+| Project | Summary | Keywords |
+|---|---|---|
+| [HAI 2025 Deepfake Detection](https://github.com/softkleenex/kaggle-hai-2025) | 딥페이크 영상 탐지 대회 상위 9%. DINOv2, EfficientNet, pseudo-labeling, TTA를 활용한 도메인 갭 대응 | PyTorch, Vision, Ensemble |
+| [Genomic Variant Detection](https://github.com/softkleenex/dacon-mai-glm-2025) | 유전체 변이 민감도 예측 대회 상위 11.1%. DNA sequence embedding과 contrastive learning 실험 | PyTorch, Genomics, Embedding |
+| [Shipping Anomaly Detection](https://github.com/softkleenex/dacon-shipping-anomaly-detection) | 해운물류 센서 이상신호 분류 대회 상위 24.9%. 52개 센서에서 통계/상호작용/클러스터링 피처 구성 | Anomaly Detection, Feature Engineering |
+| [Jigsaw ACRC Debugging Case Study](https://github.com/softkleenex/kaggle-jigsaw-acrc-portfolio) | 커뮤니티 규칙 위반 분류 대회에서 LoRA adapter/base model mismatch를 분석한 production ML 디버깅 회고 | NLP, LoRA, Debugging |
+| [LLM Database Platform](https://github.com/softkleenex/llm-database-project) | LLM 플랫폼 운영을 가정한 10개 테이블, 6,118개 레코드, 세션/로그/모델/프로젝트 관리를 포함한 DB 설계 | Oracle SQL, ERD, Data Modeling |
+
 ---
 
 ## Timeline
 
 ### 2026
 
+- **Jun**: [Barrier-Free AI Travel Orchestrator](https://github.com/softkleenex/tour_prompton) - 무장애 여행 멀티에이전트 프로토타입
 - **May**: [Stanford RNA 3D Folding 2](https://github.com/softkleenex/kaggle-stanford-rna-3d-folding-2) - autonomous LLM MLOps 실험
+- **Mar - May**: [MDGA / LivingLab 2026](https://github.com/softkleenex/livinglab_2026) - 리빙랩 기반 AI 데이터 플랫폼 MVP
 - **Mar - Apr**: [2026 PIIX Contest Award](https://github.com/softkleenex/piix_contest_award) - 생성형 AI 제품 콘셉트, 대상
 - **Jan - Feb**: [MedGemma Clinical RAG Pipeline](https://github.com/softkleenex/kaggle-medgemma-clinical-rag-pipeline) - 의료 RAG/dual-agent 파이프라인
 - **Jan - Feb**: [Heart Disease Prediction](https://github.com/softkleenex/kaggle-heart-disease-prediction) - 정형 데이터 ML 앙상블
@@ -58,9 +79,11 @@ LLM, RAG, Agentic AI, 데이터 분석, 백엔드 API를 연결해 실제 사용
 ### 2025
 
 - **Dec - Jan**: [K-League Pass Coordinate Prediction](https://github.com/softkleenex/dacon-k-league-pass-prediction) - DACON 상위 6.8%
+- **Nov - Dec**: [LLM Database Platform](https://github.com/softkleenex/llm-database-project) - LLM 운영 플랫폼 DB 설계
 - **Nov - Dec**: [Genomic Variant Detection](https://github.com/softkleenex/dacon-mai-glm-2025) - 유전체 변이 민감도 예측
 - **Oct - Nov**: [SilverLink](https://github.com/softkleenex/silverlink-hackathon-2025) - AI-conic 해커톤 최우수상
 - **Sep - Oct**: [Toss CTR Prediction](https://github.com/softkleenex/dacon-toss-ctr-prediction) - 광고 CTR 예측
+- **Sep - Oct**: [Shipping Anomaly Detection](https://github.com/softkleenex/dacon-shipping-anomaly-detection) - 해운물류 센서 이상탐지
 - **Aug - Sep**: [DACON Car News Classification](https://github.com/softkleenex/dacon-car-news-classification) - GPT-4o-mini 프롬프트 평가
 - **Aug**: [AI Movie Finder](https://github.com/softkleenex/AImoviefinder) - MCP 기반 영화 검색 에이전트
 
@@ -80,6 +103,10 @@ LLM, RAG, Agentic AI, 데이터 분석, 백엔드 API를 연결해 실제 사용
 
 `FastAPI` `REST API` `Docker` `GCP` `Railway` `Oracle DB` `SQL` `Streamlit`
 
+### Product / Frontend
+
+`React` `Tailwind CSS` `Streamlit` `Product Documentation` `Pitch Deck` `Prototype`
+
 ---
 
 ## Current Interests
@@ -88,4 +115,3 @@ LLM, RAG, Agentic AI, 데이터 분석, 백엔드 API를 연결해 실제 사용
 - LLM 응답의 근거 충실성, hallucination, regression evaluation
 - 외부 API와 연결되는 MCP/tool-calling 서비스
 - 데이터 기반 문제 정의와 실제 서비스 배포
-
