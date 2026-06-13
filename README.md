@@ -1,10 +1,7 @@
-# Hi, I'm Sangjae Lee
+# Sangjae Lee | AI/ML Engineer
 
-AI/ML engineer focused on **LLM applications, RAG, agentic workflows, and evaluation-driven product engineering**.
-
-I study Global Software Convergence at Kyungpook National University and build projects that connect models, retrieval, APIs, and user-facing services. My recent work centers on a practical question:
-
-> How can LLM systems retrieve the right evidence, call the right tools, and produce responses that users can trust?
+LLM, RAG, Agentic AI, 데이터 분석, 백엔드 API를 연결해 실제 사용 가능한 AI 서비스를 만드는 데 관심이 있습니다.  
+경북대학교 글로벌소프트웨어융합 전공으로, 모델 실험에서 끝내지 않고 검색, 도구 호출, 평가, 배포까지 이어지는 흐름을 프로젝트로 정리해 왔습니다.
 
 <p align="left">
   <a href="https://github.com/softkleenex"><img src="https://img.shields.io/badge/GitHub-softkleenex-181717?style=flat-square&logo=github&logoColor=white"/></a>
@@ -14,58 +11,58 @@ I study Global Software Convergence at Kyungpook National University and build p
 
 ---
 
-## What I Build
+## Profile
 
-- **Search & RAG systems**: retrieval pipelines, evidence-grounded responses, document preprocessing, response quality checks
-- **Agentic AI services**: MCP/tool calling, external API orchestration, natural-language-to-action workflows
-- **LLM evaluation**: prompt experiments, test sets, output stability checks, error pattern analysis
-- **Applied ML competitions**: tabular prediction, anomaly detection, sports analytics, scientific ML, autonomous experiment loops
-- **Backend/API systems**: FastAPI, Docker, cloud deployment, session/log management, service integration
+- **AI Service Engineering**: LLM/RAG/Agent를 활용한 사용자-facing 서비스 구현
+- **Evaluation-Driven Development**: 프롬프트 실험, 테스트셋 구성, 오분류/오답 패턴 분석
+- **Data & ML Competitions**: DACON/Kaggle 기반 분류, 예측, 이상탐지, 과학 ML 실험
+- **Backend & API**: FastAPI, REST API, Docker, cloud deployment, DB/API 연동
+- **Collaboration**: SKT FLY AI, 해커톤, 학교 팀 프로젝트 기반 기획-개발 협업 경험
 
 ---
 
 ## Featured Projects
 
-### Search, RAG, and Agentic AI
+### LLM / RAG / Agent
 
-| Project | What it does | Stack / Keywords |
+| Project | Summary | Keywords |
 |---|---|---|
-| [AI Movie Finder](https://github.com/softkleenex/AImoviefinder) | MCP-based movie search agent that maps vague user intent to IMDb data and web search results, then generates grounded recommendations | Python, MCP, GPT-4o-mini, Gemini, Tavily, Streamlit, Docker, GCP |
-| [Weather Life MCP](https://github.com/softkleenex/weather-life-mcp) | FastMCP server connecting weather, air quality, life indexes, and Kakao Maps place search into tool-callable AI workflows | Python, FastMCP, REST API, Kakao Maps, Railway |
-| [MedGemma Clinical RAG Pipeline](https://github.com/softkleenex/kaggle-medgemma-clinical-rag-pipeline) | Dual-agent clinical RAG pipeline that separates clinician-facing analysis from patient-friendly explanations | Python, MedGemma, FAISS, SentenceTransformers, RAG |
-| [DACON Car News Classification](https://github.com/softkleenex/dacon-car-news-classification) | Prompt engineering project for GPT-4o-mini binary classification, with prompt comparison, synthetic checks, and submission analysis | Python, GPT-4o-mini, Prompt Evaluation |
-| [SilverLink](https://github.com/softkleenex/silverlink-hackathon-2025) | AI welfare assistant for elderly users, using voice input, Gemini-based situation analysis, and benefit recommendation validation | Python, Streamlit, Gemini, STT/TTS |
+| [AI Movie Finder](https://github.com/softkleenex/AImoviefinder) | 사용자의 모호한 영화 취향을 검색 조건으로 변환하고, IMDb 데이터와 웹 검색 결과를 함께 활용해 추천 근거를 제공하는 MCP 기반 영화 검색 에이전트 | MCP, GPT-4o-mini, Gemini, Tavily, Streamlit, GCP |
+| [Weather Life MCP](https://github.com/softkleenex/weather-life-mcp) | 날씨, 대기질, 생활지수, 카카오맵 장소 검색을 MCP 도구로 연결한 생활형 AI 도구 서버 | FastMCP, REST API, Kakao Maps, Railway |
+| [MedGemma Clinical RAG Pipeline](https://github.com/softkleenex/kaggle-medgemma-clinical-rag-pipeline) | 의료 문서를 검색해 의료진용 분석과 환자용 쉬운 설명을 분리하는 dual-agent RAG 파이프라인 | RAG, FAISS, MedGemma, SentenceTransformers |
+| [DACON Car News Classification](https://github.com/softkleenex/dacon-car-news-classification) | GPT-4o-mini 프롬프트만으로 자동차 뉴스 여부를 분류하고, 프롬프트별 정확도와 오분류 패턴을 비교한 평가 프로젝트 | Prompt Engineering, Evaluation, Test Set |
+| [SilverLink](https://github.com/softkleenex/silverlink-hackathon-2025) | 어르신의 음성/텍스트 입력을 바탕으로 복지 혜택을 추천하는 AI 복지 도우미. AI-conic 해커톤 최우수상 수상 | Gemini, Streamlit, STT/TTS, Validation |
 
-### ML Competitions and Data Systems
+### ML / Data / Backend
 
-| Project | Result / Focus | Stack / Keywords |
+| Project | Summary | Keywords |
 |---|---|---|
-| [K-League Pass Coordinate Prediction](https://github.com/softkleenex/dacon-k-league-pass-prediction) | DACON private leaderboard 121 / 1,782 teams, top 6.8%; reframed target as delta prediction and applied pseudo-labeling | Python, CatBoost, LightGBM, XGBoost |
-| [Stanford RNA 3D Folding 2](https://github.com/softkleenex/kaggle-stanford-rna-3d-folding-2) | Kaggle top 48.2%; autonomous LLM-driven MLOps loop for scientific ML experimentation | Python, PyTorch, Kaggle API, LLM Agents |
-| [AIMO Prize 3 Solver](https://github.com/softkleenex/kaggle-aimo-prize-3) | Autonomous math-solving pipeline using tool-integrated reasoning and self-correction | Python, Qwen2.5-Math, TIR |
-| [Toss CTR Prediction](https://github.com/softkleenex/dacon-toss-ctr-prediction) | Ad click-through-rate prediction with feature engineering and tree-based ensembles | Python, LightGBM, XGBoost |
-| [LLM Dashboard API](https://github.com/softkleenex/llm-dashboard-api) | FastAPI backend for managing LLM service users, projects, models, sessions, and logs | FastAPI, Oracle DB, Docker |
+| [K-League Pass Coordinate Prediction](https://github.com/softkleenex/dacon-k-league-pass-prediction) | K리그 패스 도착 좌표 예측 대회 private leaderboard 121/1,782, 상위 6.8%. 좌표 변화량 예측과 pseudo-labeling 적용 | CatBoost, LightGBM, XGBoost, Validation |
+| [Stanford RNA 3D Folding 2](https://github.com/softkleenex/kaggle-stanford-rna-3d-folding-2) | LLM agent 기반 autonomous MLOps 실험 루프로 Kaggle RNA 3D 구조 예측 대회 상위 48.2% 기록 | PyTorch, Kaggle API, LLM Agents |
+| [AIMO Prize 3 Solver](https://github.com/softkleenex/kaggle-aimo-prize-3) | 수학 문제 풀이를 위한 tool-integrated reasoning 및 self-correction 기반 LLM solver | Qwen2.5-Math, TIR, Self-Correction |
+| [Toss CTR Prediction](https://github.com/softkleenex/dacon-toss-ctr-prediction) | 광고 클릭률 예측을 위한 feature engineering 및 tree-based ensemble 실험 | CTR, LightGBM, XGBoost |
+| [LLM Dashboard API](https://github.com/softkleenex/llm-dashboard-api) | LLM 서비스의 사용자, 프로젝트, 모델, 세션, 로그 관리를 위한 FastAPI 백엔드 | FastAPI, Oracle DB, Docker |
 
 ---
 
-## Recent Timeline
+## Timeline
 
 ### 2026
 
-- **May**: [Stanford RNA 3D Folding 2](https://github.com/softkleenex/kaggle-stanford-rna-3d-folding-2) - autonomous experiment loop for Kaggle scientific ML
-- **Mar - Apr**: [2026 PIIX Contest Award](https://github.com/softkleenex/piix_contest_award) - generative AI product concept, grand prize
-- **Jan - Feb**: [MedGemma Clinical RAG Pipeline](https://github.com/softkleenex/kaggle-medgemma-clinical-rag-pipeline) - dual-agent RAG for clinical explanation
-- **Jan - Feb**: [Heart Disease Prediction](https://github.com/softkleenex/kaggle-heart-disease-prediction) - tabular ML ensemble and validation
-- **Jan**: [Weather Life MCP](https://github.com/softkleenex/weather-life-mcp) - MCP tool server for weather, lifestyle, and place search
+- **May**: [Stanford RNA 3D Folding 2](https://github.com/softkleenex/kaggle-stanford-rna-3d-folding-2) - autonomous LLM MLOps 실험
+- **Mar - Apr**: [2026 PIIX Contest Award](https://github.com/softkleenex/piix_contest_award) - 생성형 AI 제품 콘셉트, 대상
+- **Jan - Feb**: [MedGemma Clinical RAG Pipeline](https://github.com/softkleenex/kaggle-medgemma-clinical-rag-pipeline) - 의료 RAG/dual-agent 파이프라인
+- **Jan - Feb**: [Heart Disease Prediction](https://github.com/softkleenex/kaggle-heart-disease-prediction) - 정형 데이터 ML 앙상블
+- **Jan**: [Weather Life MCP](https://github.com/softkleenex/weather-life-mcp) - MCP 기반 생활/날씨 도구 서버
 
 ### 2025
 
-- **Dec - Jan**: [K-League Pass Coordinate Prediction](https://github.com/softkleenex/dacon-k-league-pass-prediction) - DACON top 6.8%
-- **Nov - Dec**: [Genomic Variant Detection](https://github.com/softkleenex/dacon-mai-glm-2025) - genomic language model competition
-- **Oct - Nov**: [SilverLink](https://github.com/softkleenex/silverlink-hackathon-2025) - AI-conic Hackathon excellence award
-- **Sep - Oct**: [Toss CTR Prediction](https://github.com/softkleenex/dacon-toss-ctr-prediction) - ad CTR prediction
-- **Aug - Sep**: [DACON Car News Classification](https://github.com/softkleenex/dacon-car-news-classification) - GPT-4o-mini prompt evaluation
-- **Aug**: [AI Movie Finder](https://github.com/softkleenex/AImoviefinder) - MCP-based movie search agent
+- **Dec - Jan**: [K-League Pass Coordinate Prediction](https://github.com/softkleenex/dacon-k-league-pass-prediction) - DACON 상위 6.8%
+- **Nov - Dec**: [Genomic Variant Detection](https://github.com/softkleenex/dacon-mai-glm-2025) - 유전체 변이 민감도 예측
+- **Oct - Nov**: [SilverLink](https://github.com/softkleenex/silverlink-hackathon-2025) - AI-conic 해커톤 최우수상
+- **Sep - Oct**: [Toss CTR Prediction](https://github.com/softkleenex/dacon-toss-ctr-prediction) - 광고 CTR 예측
+- **Aug - Sep**: [DACON Car News Classification](https://github.com/softkleenex/dacon-car-news-classification) - GPT-4o-mini 프롬프트 평가
+- **Aug**: [AI Movie Finder](https://github.com/softkleenex/AImoviefinder) - MCP 기반 영화 검색 에이전트
 
 ---
 
@@ -75,7 +72,7 @@ I study Global Software Convergence at Kyungpook National University and build p
 
 `Python` `PyTorch` `Scikit-learn` `LightGBM` `XGBoost` `CatBoost` `Pandas` `NumPy`
 
-### LLM / RAG / Agents
+### LLM / RAG / Agent
 
 `RAG` `FAISS` `SentenceTransformers` `MCP` `FastMCP` `Tool Calling` `Prompt Evaluation` `Gemini API` `OpenAI API`
 
@@ -85,22 +82,10 @@ I study Global Software Convergence at Kyungpook National University and build p
 
 ---
 
-## Engineering Notes
+## Current Interests
 
-I try to document not only final scores, but also failed assumptions, validation gaps, and implementation trade-offs. The projects above include retrospective notes on:
-
-- prompt length vs. classification stability
-- RAG pathing and cloud execution issues
-- local validation vs. leaderboard mismatch
-- overfitting in sports prediction
-- tool-calling reliability in MCP services
-
----
-
-## Current Focus
-
-- Agentic RAG and search-quality evaluation
-- LLM-as-a-judge and regression-style evaluation for generated answers
-- MCP/tool-calling services connected to real APIs
-- Production-minded AI services with clear logs, tests, and documentation
+- 검색 품질 평가와 Agentic RAG
+- LLM 응답의 근거 충실성, hallucination, regression evaluation
+- 외부 API와 연결되는 MCP/tool-calling 서비스
+- 데이터 기반 문제 정의와 실제 서비스 배포
 
